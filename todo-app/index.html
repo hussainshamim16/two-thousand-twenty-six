@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Todo App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./faver.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="app-container">
+        <div class="todo-card">
+            <header class="todo-header">
+                <h1 class="todo-title">My Tasks</h1>
+                <p class="todo-subtitle">Keep track of your daily tasks</p>
+            </header>
+
+            <div class="todo-input-section">
+                <input type="text" class="todo-input" placeholder="What needs to be done?" id="targetInput"/>
+                <button class="btn-add" onclick="addTodo()">
+                    <i class="ri-add-line"></i>
+                    <span>Add Task</span>
+                </button>
+            </div>
+
+            <div class="todo-list" id="todocontainer">
+                <div class="todo-item">
+                    <div class="todo-content">
+                        <input type="checkbox" class="todo-checkbox" />
+                        <span class="todo-text">Complete project documentation</span>
+                    </div>
+                    <div class="todo-actions">
+                        <button class="btn-edit">
+                            <i class="ri-pencil-line"></i>
+                        </button>
+                        <button class="btn-delete">
+                            <i class="ri-delete-bin-line"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="todo-item">
+                    <div class="todo-content">
+                        <input type="checkbox" class="todo-checkbox" defaultChecked />
+                        <span class="todo-text completed">Review pull requests</span>
+                    </div>
+                    <div class="todo-actions">
+                        <button class="btn-edit">
+                            <i class="ri-pencil-line"></i>
+                        </button>
+                        <button class="btn-delete">
+                            <i class="ri-delete-bin-line"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="todo-item">
+                    <div class="todo-content">
+                        <input type="checkbox" class="todo-checkbox" />
+                        <span class="todo-text">Update README file</span>
+                    </div>
+                    <div class="todo-actions">
+                        <button class="btn-edit">
+                            <i class="ri-pencil-line"></i>
+                        </button>
+                        <button class="btn-delete">
+                            <i class="ri-delete-bin-line"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="todo-item">
+                    <div class="todo-content">
+                        <input type="checkbox" class="todo-checkbox" />
+                        <span class="todo-text">Schedule team meeting</span>
+                    </div>
+                    <div class="todo-actions">
+                        <button class="btn-edit">
+                            <i class="ri-pencil-line"></i>
+                        </button>
+                        <button class="btn-delete">
+                            <i class="ri-delete-bin-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="todo-footer">
+                <span class="todo-count">3 tasks remaining</span>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
