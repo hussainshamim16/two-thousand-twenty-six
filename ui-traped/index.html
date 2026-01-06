@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traped Out || Home</title>
+    <link rel="stylesheet" href=".//assets/css/bootstrap-min.css">
+    <link rel="stylesheet" href=".//assets/css/swiper.css">
+    <link rel="stylesheet" href=".//assets/css/style.css">
+    <link rel="stylesheet" href=".//assets/css/responsive-style.css">
+    <link rel="shortcut icon" href="./assets/images/logo/fav-icon.avif" type="image/x-icon">
+</head>
+
+<body>
+    <main class="home">
+        <!-- header -->
+        <nav class="trap-nav navbar navbar-expand-lg my-3">
+            <div class="container">
+                <!-- mobile btn -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Desk Logo -->
+                <a class="navbar-brand" href="/">
+                    <img src="./assets/images/logo/logo.webp" alt="" srcset="" width="156px" height="72px">
+                </a>
+                <!-- Cart Icon -->
+                <div class="cart-Icon-on-mobile">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M10.4079 8.50835C10.8635 8.34731 11.3634 8.58612 11.5244 9.04174C11.8852 10.0625 12.8587 10.7917 14.0003 10.7917C15.1419 10.7917 16.1154 10.0625 16.4762 9.04174C16.6372 8.58612 17.1371 8.34731 17.5927 8.50835C18.0484 8.66939 18.2872 9.1693 18.1261 9.62492C17.526 11.323 15.9066 12.5417 14.0003 12.5417C12.094 12.5417 10.4747 11.323 9.87448 9.62492C9.71344 9.1693 9.95225 8.66939 10.4079 8.50835ZM14.4208 6.41667H13.5794C11.6826 6.41667 10.4202 6.41978 9.46404 6.53791C8.556 6.65011 8.13744 6.84516 7.84372 7.08893C7.55 7.3327 7.28114 7.70814 7.00353 8.57996C6.71121 9.49794 6.4755 10.7382 6.12595 12.6025C5.63597 15.2157 5.30747 16.9906 5.24911 18.3276C5.19287 19.6162 5.40881 20.164 5.712 20.5294C6.0152 20.8947 6.51385 21.2079 7.79079 21.3901C9.11556 21.5791 10.9206 21.5833 13.5794 21.5833H14.4208C17.0795 21.5833 18.8846 21.5791 20.2094 21.3901C21.4863 21.2079 21.985 20.8947 22.2882 20.5294C22.5914 20.164 22.8073 19.6162 22.7511 18.3276C22.6927 16.9906 22.3642 15.2157 21.8742 12.6025C21.5247 10.7382 21.2889 9.49794 20.9966 8.57996C20.719 7.70814 20.4502 7.3327 20.1564 7.08893C19.8627 6.84516 19.4442 6.65011 18.5361 6.53791C17.58 6.41978 16.3175 6.41667 14.4208 6.41667ZM6.7261 5.74229C5.43006 6.81792 5.08868 8.6386 4.40592 12.28C3.44584 17.4004 2.96581 19.9606 4.36536 21.647C5.76492 23.3333 8.36975 23.3333 13.5794 23.3333H14.4208C19.6304 23.3333 22.2352 23.3333 23.6348 21.647C25.0344 19.9606 24.5543 17.4004 23.5942 12.28C22.9115 8.6386 22.5701 6.81792 21.2741 5.74229C19.978 4.66667 18.1256 4.66667 14.4208 4.66667H13.5794C9.87457 4.66667 8.02215 4.66667 6.7261 5.74229Z"
+                            fill="black" />
+                    </svg>
+                </div>
+                <!-- menu -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+
+                    <div class="offcanvas-body ">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./shopall.html">Shop All</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./reviews.html">Reviews</a>
+                            </li>
+                        </ul>
+                        <div class="Nav-Icons d-flex justify-sm-content-between gap-3">
+                            <div class="users search">
+
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M13.4168 3.20833C7.77892 3.20833 3.2085 7.77876 3.2085 13.4167C3.2085 19.0546 7.77892 23.625 13.4168 23.625C19.0547 23.625 23.6252 19.0546 23.6252 13.4167C23.6252 7.77876 19.0547 3.20833 13.4168 3.20833ZM1.4585 13.4167C1.4585 6.81226 6.81242 1.45833 13.4168 1.45833C20.0212 1.45833 25.3752 6.81226 25.3752 13.4167C25.3752 16.4039 24.2798 19.1354 22.4688 21.2312L26.2856 25.0479C26.6273 25.3897 26.6273 25.9437 26.2856 26.2854C25.9438 26.6271 25.3898 26.6271 25.0481 26.2854L21.2314 22.4687C19.1355 24.2796 16.4041 25.375 13.4168 25.375C6.81242 25.375 1.4585 20.0211 1.4585 13.4167Z"
+                                        fill="#A3783F" />
+                                </svg>
+
+                            </div>
+                            <div class="users">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M14.0002 1.45833C10.9396 1.45833 8.4585 3.93942 8.4585 7C8.4585 10.0606 10.9396 12.5417 14.0002 12.5417C17.0607 12.5417 19.5418 10.0606 19.5418 7C19.5418 3.93942 17.0607 1.45833 14.0002 1.45833ZM10.2085 7C10.2085 4.90592 11.9061 3.20833 14.0002 3.20833C16.0942 3.20833 17.7918 4.90592 17.7918 7C17.7918 9.09408 16.0942 10.7917 14.0002 10.7917C11.9061 10.7917 10.2085 9.09408 10.2085 7Z"
+                                        fill="black" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M14.0002 14.2917C11.6209 14.2917 9.42393 14.8409 7.79134 15.7738C6.18349 16.6926 4.9585 18.0952 4.9585 19.8333C4.9585 21.5715 6.18349 22.9741 7.79134 23.8929C9.42393 24.8258 11.6209 25.375 14.0002 25.375C16.3794 25.375 18.5764 24.8258 20.209 23.8929C21.8168 22.9741 23.0418 21.5715 23.0418 19.8333C23.0418 18.0952 21.8168 16.6926 20.209 15.7738C18.5764 14.8409 16.3794 14.2917 14.0002 14.2917ZM6.7085 19.8333C6.7085 18.9942 7.31167 18.0634 8.65958 17.2932C9.98273 16.5371 11.8691 16.0417 14.0002 16.0417C16.1313 16.0417 18.0176 16.5371 19.3407 17.2932C20.6887 18.0634 21.2918 18.9942 21.2918 19.8333C21.2918 20.6725 20.6887 21.6032 19.3407 22.3734C18.0176 23.1295 16.1313 23.625 14.0002 23.625C11.8691 23.625 9.98273 23.1295 8.65958 22.3734C7.31167 21.6032 6.7085 20.6725 6.7085 19.8333Z"
+                                        fill="black" />
+                                </svg>
+                            </div>
+                            <div class="users cart-ondex">
+
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10.4079 8.50835C10.8635 8.34731 11.3634 8.58612 11.5244 9.04174C11.8852 10.0625 12.8587 10.7917 14.0003 10.7917C15.1419 10.7917 16.1154 10.0625 16.4762 9.04174C16.6372 8.58612 17.1371 8.34731 17.5927 8.50835C18.0484 8.66939 18.2872 9.1693 18.1261 9.62492C17.526 11.323 15.9066 12.5417 14.0003 12.5417C12.094 12.5417 10.4747 11.323 9.87448 9.62492C9.71344 9.1693 9.95225 8.66939 10.4079 8.50835ZM14.4208 6.41667H13.5794C11.6826 6.41667 10.4202 6.41978 9.46404 6.53791C8.556 6.65011 8.13744 6.84516 7.84372 7.08893C7.55 7.3327 7.28114 7.70814 7.00353 8.57996C6.71121 9.49794 6.4755 10.7382 6.12595 12.6025C5.63597 15.2157 5.30747 16.9906 5.24911 18.3276C5.19287 19.6162 5.40881 20.164 5.712 20.5294C6.0152 20.8947 6.51385 21.2079 7.79079 21.3901C9.11556 21.5791 10.9206 21.5833 13.5794 21.5833H14.4208C17.0795 21.5833 18.8846 21.5791 20.2094 21.3901C21.4863 21.2079 21.985 20.8947 22.2882 20.5294C22.5914 20.164 22.8073 19.6162 22.7511 18.3276C22.6927 16.9906 22.3642 15.2157 21.8742 12.6025C21.5247 10.7382 21.2889 9.49794 20.9966 8.57996C20.719 7.70814 20.4502 7.3327 20.1564 7.08893C19.8627 6.84516 19.4442 6.65011 18.5361 6.53791C17.58 6.41978 16.3175 6.41667 14.4208 6.41667ZM6.7261 5.74229C5.43006 6.81792 5.08868 8.6386 4.40592 12.28C3.44584 17.4004 2.96581 19.9606 4.36536 21.647C5.76492 23.3333 8.36975 23.3333 13.5794 23.3333H14.4208C19.6304 23.3333 22.2352 23.3333 23.6348 21.647C25.0344 19.9606 24.5543 17.4004 23.5942 12.28C22.9115 8.6386 22.5701 6.81792 21.2741 5.74229C19.978 4.66667 18.1256 4.66667 14.4208 4.66667H13.5794C9.87457 4.66667 8.02215 4.66667 6.7261 5.74229Z"
+                                        fill="black" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- header end -->
+        <!-- Hero Section Start -->
+        <section class="trap-hero vh-100 position-relative mx-4 overflow-hidden"
+            style="background: url(./assets/images/hero-back.webp) center / cover no-repeat;">
+            <div class="hero-wrapper container h-100 d-flex align-items-center">
+                <div class="content w-50">
+                    <h1><span>Streetwear</span> That Defines Your Vibe</h1>
+                    <p class="mb-4 mt-3">Premium hoodies, tracksuits, and everyday wear crafted for durability, fit, and
+                        effortless style.</p>
+                    <a href="./single.html" class="trap-btn">Shop All</a>
+                </div>
+            </div>
+            <div class="image abs-center w-50">
+                <img src="./assets/images/hero-banner-image.webp" alt="heroImage" class="img-fluid">
+            </div>
+        </section>
+        <!-- Hero Section End -->
+        <!-- Collection Section End -->
+        <section class="trap-collection vh-100">
+            <div class="trap-collection-wrapper row mx-4 gap-md-2 flex-nowrap h-100 flex-column flex-md-row">
+                <div class="trap-collection-box box-2 col-md-6 d-flex flex-column align-items-start justify-content-end mb-2 mb-md-0"
+                    style="background: url('./assets/images/collection (1).webp') center / cover no-repeat;">
+                    <p>New Collection</p>
+                    <h2>Windbreaker Set</h2>
+                    <a href="./collection.html" class="trap-btn trap-2-btn mt-2">Shop All</a>
+                </div>
+                <div class="trap-collection-box box-2 col-md-6 d-flex flex-column align-items-start justify-content-end mb-2 mb-md-0"
+                    style="background: url('./assets/images/collection (2).webp') center / cover no-repeat;">
+                    <p>New Collection</p>
+                    <h2>Hoodie Suits</h2>
+                    <a href="./collection.html" class="trap-btn trap-2-btn mt-2">Shop All</a>
+                </div>
+            </div>
+        </section>
+        <!-- Collection Section End -->
+        <!-- Feature Product Section Start -->
+        <section class="trap-feature-product ">
+            <div class="container">
+                <div class="content row align-items-end justify-content-between">
+                    <h2 class="col-md-6">Latest Drops You <span>Can’t Miss</span></h2>
+                    <div class="pera col-md-5">
+                        <p class="mb-4">Discover our newest arrivals crafted to elevate your streetwear game. From bold
+                            prints to everyday essentials, each piece is designed with premium quality and standout
+                            style.
+                        </p>
+                        <a href="./shopall.html" class="trap-btn d-inline-block">Explore All Collections</a>
+                    </div>
+                </div>
+                <div
+                    class="product-card row justify-sm-content-between mt-md-5 flex-nowrap gap-4 flex-column flex-sm-row">
+                    <div class="product product1 col-sm-4">
+                        <a href="./single.html" class="text-decoration-none text-black">
+                            <img src="./assets/images/productImag.png" alt="Feature" class="img-fluid mb-2 rounded-4"
+                                style="background: #adadad;">
+                            <div class="info">
+                                <h1>trap hoodie 2.0</h1>
+                                <h4 class="price">$75.00 USD</h4>
+                                <img src="./assets/images/varients.png" alt="varients" class="verient-image">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product product1 col-sm-4">
+                        <a href="./single.html" class="text-decoration-none text-black">
+                            <img src="./assets/images/feature1 (1).webp" alt="Feature" class="img-fluid mb-2 rounded-4"
+                                style="background: #adadad;">
+                            <div class="info">
+                                <h1>Windbreaker Shorts</h1>
+                                <h4 class="price">$75.00 USD</h4>
+                                <img src="./assets/images/varients.png" alt="varients" class="verient-image">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product product1 col-sm-4">
+                        <a href="./single.html" class="text-decoration-none text-black">
+                            <img src="./assets/images/feature1 (2).webp" alt="Feature" class="img-fluid mb-2 rounded-4"
+                                style="background: #adadad;">
+                            <div class="info">
+                                <h1>Windbreaker Jackets</h1>
+                                <h4 class="price">$75.00 USD</h4>
+                                <img src="./assets/images/varients.png" alt="varients" class="verient-image">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Feature Product Section End -->
+        <!-- GRADIENT Heading Section START -->
+        <section class="gradient-heading">
+            <div class="container text-center">
+                <h1>about us</h1>
+            </div>
+        </section>
+        <!-- GRADIENT Heading Section End -->
+        <!-- Streetwear Section START -->
+        <section class="streetwear-section my-5">
+            <div class="container">
+                <h1 class="w-50 mb-5">Streetwear That Redefines <span>Confidence</span></h1>
+                <div class="row flex-lg-nowrap">
+                    <div class="col-md-6 col-lg-7 image">
+                        <img src="./assets/images/Streetwear.webp" alt="Streetwear" width="100%" height="600px"
+                            class="object-fit-cover rounded-4">
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-5 bg-black text-white rounded-4 p-3 content mt-2 mt-md-0 d-flex flex-column align-items-start justify-content-between">
+                        <h2 class="mb-3">our story</h2>
+                        <p class="mb-4">Traped Out Apparel is more than a clothing brand — it’s a culture of bold
+                            expression. We create
+                            premium streetwear that blends effortless comfort with standout style, giving you apparel
+                            that
+                            speaks before you do. From signature hoodies and tracksuits to tees, windbreakers, and kids'
+                            fits, every piece is made with attention to quality, durability, and detail.
+                            <br><br>
+                            Our goal is simple: help you wear your confidence with pride. Each design reflects
+                            originality,
+                            personality, and authenticity — qualities that shape who you are and how you present
+                            yourself to
+                            the world. We’re here to inspire individuality and celebrate uniqueness through fashion that
+                            feels good and looks even better.
+                        </p>
+                        <a href="./about.html" class="trap-btn trap-2-btn d-inline-block">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Streetwear Section End   -->
+        <!-- What Slider Section Start   -->
+        <section class="what-slider my-5 vh-100"
+            style="background: url(./assets/images/trapslider.webp) center / cover no-repeat;">
+            <div class="container text-white h-100 position-relative">
+                <div
+                    class="trap-slider-wrapper w-75 h-100 d-flex flex-column align-items-start justify-content-center gap-4">
+                    <svg width="70" height="70" viewBox="0 0 95 77" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="whatQuots">
+                        <path
+                            d="M0 43.418H24.8633V50.671C24.8633 54.8146 21.4923 58.1856 17.3486 58.1856H7.79297V76.7403H17.3486C31.7234 76.7403 43.418 65.0458 43.418 50.671V0H0V43.418Z"
+                            fill="#ffffff" />
+                        <path
+                            d="M51.582 0V43.418H76.4453V50.671C76.4453 54.8146 73.0743 58.1856 68.9307 58.1856H59.375V76.7403H68.9307C83.3055 76.7403 95 65.0458 95 50.671V0L51.582 0Z"
+                            fill="#ffffff" />
+                    </svg>
+                    <h2>What Our Traped Out Community Say</h2>
+                    <div class="swiper whatslider ms-0">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide d-flex flex-column align-items-start text-start gap-1">
+                                <p>Worth It!!</p>
+                                <p class="pb-2"> fast shipping. great quality products. looks good. fits good. I can't
+                                    believe I got my
+                                    package in 3 days, their customer service is on point!
+                                </p>
+
+                                <svg width="158" height="26" viewBox="0 0 158 26" fill="none" class="mb-2"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.1853 25.5624C19.292 26.1995 13.5605 22.1609 12.4628 22.1521C11.3651 22.1433 5.56906 26.0889 4.68623 25.4375C3.80341 24.7861 5.87889 18.0953 5.54814 17.0502C5.21738 16.0051 -0.331948 11.7202 0.0156656 10.6805C0.363356 9.64083 7.37756 9.54427 8.27082 8.90716C9.16407 8.27014 11.5305 1.67627 12.6283 1.68507C13.7259 1.69394 15.9854 8.32508 16.8682 8.97649C17.751 9.62783 24.7629 9.83749 25.0937 10.8826C25.4244 11.9277 19.8067 16.1226 19.459 17.1623C19.1114 18.2019 21.0785 24.9253 20.1853 25.5624Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M53.8958 24.9611C52.9608 25.6272 46.961 21.4053 45.8119 21.396C44.6628 21.3868 38.5956 25.5116 37.6714 24.8306C36.7473 24.1496 38.9199 17.1551 38.5737 16.0625C38.2274 14.97 32.4184 10.4906 32.7823 9.40376C33.1462 8.31689 40.4887 8.21594 41.4238 7.54992C42.3588 6.88398 44.836 -0.00919001 45.9851 9.19915e-06C47.1341 0.0092884 49.4994 6.94141 50.4235 7.62239C51.3477 8.30329 58.6877 8.52247 59.034 9.61502C59.3802 10.7076 53.4995 15.0929 53.1356 16.1797C52.7717 17.2666 54.8309 24.2951 53.8958 24.9611Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M87.866 25.3096C86.931 25.9845 80.9312 21.7064 79.7822 21.697C78.6331 21.6877 72.5658 25.8674 71.6416 25.1774C70.7175 24.4873 72.8901 17.3996 72.5439 16.2926C72.1976 15.1855 66.3886 10.6464 66.7525 9.5451C67.1164 8.44376 74.4589 8.34146 75.394 7.66657C76.329 6.99176 78.8062 0.0068009 79.9554 0.0161226C81.1044 0.0255254 83.4696 7.04996 84.3937 7.74001C85.3179 8.42998 92.6579 8.65208 93.0042 9.75917C93.3504 10.8663 87.4697 15.31 87.1058 16.4113C86.7419 17.5126 88.8011 24.6348 87.866 25.3096Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M120.63 25.3096C119.745 25.9845 114.061 21.7064 112.972 21.697C111.883 21.6877 106.135 25.8674 105.26 25.1774C104.384 24.4873 106.443 17.3996 106.115 16.2926C105.787 15.1855 100.283 10.6464 100.628 9.5451C100.973 8.44376 107.929 8.34146 108.815 7.66657C109.701 6.99176 112.047 0.0068009 113.136 0.0161226C114.225 0.0255254 116.465 7.04996 117.341 7.74001C118.216 8.42998 125.17 8.65208 125.498 9.75917C125.826 10.8663 120.255 15.31 119.91 16.4113C119.565 17.5126 121.516 24.6348 120.63 25.3096Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M152.847 25.3096C151.912 25.9845 145.912 21.7064 144.763 21.697C143.614 21.6877 137.547 25.8674 136.623 25.1774C135.699 24.4873 137.871 17.3996 137.525 16.2926C137.179 15.1855 131.37 10.6464 131.734 9.5451C132.098 8.44376 139.44 8.34146 140.375 7.66657C141.31 6.99176 143.787 0.0068009 144.937 0.0161226C146.086 0.0255254 148.451 7.04996 149.375 7.74001C150.299 8.42998 157.639 8.65208 157.985 9.75917C158.332 10.8663 152.451 15.31 152.087 16.4113C151.723 17.5126 153.782 24.6348 152.847 25.3096Z"
+                                        fill="#FFD12B" />
+                                </svg>
+                                <h3>Ike A</h3>
+                            </div>
+                            <div class="swiper-slide gap-2">
+                                <p>Worth It!!</p>
+                                <p> fast shipping. great quality products. looks good. fits good. I can't believe I got
+                                    my
+                                    package in 3 days, their customer service is on point!
+                                </p>
+
+                                <svg width="158" height="26" viewBox="0 0 158 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.1853 25.5624C19.292 26.1995 13.5605 22.1609 12.4628 22.1521C11.3651 22.1433 5.56906 26.0889 4.68623 25.4375C3.80341 24.7861 5.87889 18.0953 5.54814 17.0502C5.21738 16.0051 -0.331948 11.7202 0.0156656 10.6805C0.363356 9.64083 7.37756 9.54427 8.27082 8.90716C9.16407 8.27014 11.5305 1.67627 12.6283 1.68507C13.7259 1.69394 15.9854 8.32508 16.8682 8.97649C17.751 9.62783 24.7629 9.83749 25.0937 10.8826C25.4244 11.9277 19.8067 16.1226 19.459 17.1623C19.1114 18.2019 21.0785 24.9253 20.1853 25.5624Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M53.8958 24.9611C52.9608 25.6272 46.961 21.4053 45.8119 21.396C44.6628 21.3868 38.5956 25.5116 37.6714 24.8306C36.7473 24.1496 38.9199 17.1551 38.5737 16.0625C38.2274 14.97 32.4184 10.4906 32.7823 9.40376C33.1462 8.31689 40.4887 8.21594 41.4238 7.54992C42.3588 6.88398 44.836 -0.00919001 45.9851 9.19915e-06C47.1341 0.0092884 49.4994 6.94141 50.4235 7.62239C51.3477 8.30329 58.6877 8.52247 59.034 9.61502C59.3802 10.7076 53.4995 15.0929 53.1356 16.1797C52.7717 17.2666 54.8309 24.2951 53.8958 24.9611Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M87.866 25.3096C86.931 25.9845 80.9312 21.7064 79.7822 21.697C78.6331 21.6877 72.5658 25.8674 71.6416 25.1774C70.7175 24.4873 72.8901 17.3996 72.5439 16.2926C72.1976 15.1855 66.3886 10.6464 66.7525 9.5451C67.1164 8.44376 74.4589 8.34146 75.394 7.66657C76.329 6.99176 78.8062 0.0068009 79.9554 0.0161226C81.1044 0.0255254 83.4696 7.04996 84.3937 7.74001C85.3179 8.42998 92.6579 8.65208 93.0042 9.75917C93.3504 10.8663 87.4697 15.31 87.1058 16.4113C86.7419 17.5126 88.8011 24.6348 87.866 25.3096Z"
+                                        fill="#FFD12B" />
+                                </svg>
+                                <h3>William A.</h3>
+                            </div>
+                            <div class="swiper-slide gap-2">
+                                <p>Worth It!!</p>
+                                <p> fast shipping. great quality products. looks good. fits good. I can't believe I got
+                                    my
+                                    package in 3 days, their customer service is on point!
+                                </p>
+
+                                <svg width="158" height="26" viewBox="0 0 158 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.1853 25.5624C19.292 26.1995 13.5605 22.1609 12.4628 22.1521C11.3651 22.1433 5.56906 26.0889 4.68623 25.4375C3.80341 24.7861 5.87889 18.0953 5.54814 17.0502C5.21738 16.0051 -0.331948 11.7202 0.0156656 10.6805C0.363356 9.64083 7.37756 9.54427 8.27082 8.90716C9.16407 8.27014 11.5305 1.67627 12.6283 1.68507C13.7259 1.69394 15.9854 8.32508 16.8682 8.97649C17.751 9.62783 24.7629 9.83749 25.0937 10.8826C25.4244 11.9277 19.8067 16.1226 19.459 17.1623C19.1114 18.2019 21.0785 24.9253 20.1853 25.5624Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M53.8958 24.9611C52.9608 25.6272 46.961 21.4053 45.8119 21.396C44.6628 21.3868 38.5956 25.5116 37.6714 24.8306C36.7473 24.1496 38.9199 17.1551 38.5737 16.0625C38.2274 14.97 32.4184 10.4906 32.7823 9.40376C33.1462 8.31689 40.4887 8.21594 41.4238 7.54992C42.3588 6.88398 44.836 -0.00919001 45.9851 9.19915e-06C47.1341 0.0092884 49.4994 6.94141 50.4235 7.62239C51.3477 8.30329 58.6877 8.52247 59.034 9.61502C59.3802 10.7076 53.4995 15.0929 53.1356 16.1797C52.7717 17.2666 54.8309 24.2951 53.8958 24.9611Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M87.866 25.3096C86.931 25.9845 80.9312 21.7064 79.7822 21.697C78.6331 21.6877 72.5658 25.8674 71.6416 25.1774C70.7175 24.4873 72.8901 17.3996 72.5439 16.2926C72.1976 15.1855 66.3886 10.6464 66.7525 9.5451C67.1164 8.44376 74.4589 8.34146 75.394 7.66657C76.329 6.99176 78.8062 0.0068009 79.9554 0.0161226C81.1044 0.0255254 83.4696 7.04996 84.3937 7.74001C85.3179 8.42998 92.6579 8.65208 93.0042 9.75917C93.3504 10.8663 87.4697 15.31 87.1058 16.4113C86.7419 17.5126 88.8011 24.6348 87.866 25.3096Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M120.63 25.3096C119.745 25.9845 114.061 21.7064 112.972 21.697C111.883 21.6877 106.135 25.8674 105.26 25.1774C104.384 24.4873 106.443 17.3996 106.115 16.2926C105.787 15.1855 100.283 10.6464 100.628 9.5451C100.973 8.44376 107.929 8.34146 108.815 7.66657C109.701 6.99176 112.047 0.0068009 113.136 0.0161226C114.225 0.0255254 116.465 7.04996 117.341 7.74001C118.216 8.42998 125.17 8.65208 125.498 9.75917C125.826 10.8663 120.255 15.31 119.91 16.4113C119.565 17.5126 121.516 24.6348 120.63 25.3096Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M152.847 25.3096C151.912 25.9845 145.912 21.7064 144.763 21.697C143.614 21.6877 137.547 25.8674 136.623 25.1774C135.699 24.4873 137.871 17.3996 137.525 16.2926C137.179 15.1855 131.37 10.6464 131.734 9.5451C132.098 8.44376 139.44 8.34146 140.375 7.66657C141.31 6.99176 143.787 0.0068009 144.937 0.0161226C146.086 0.0255254 148.451 7.04996 149.375 7.74001C150.299 8.42998 157.639 8.65208 157.985 9.75917C158.332 10.8663 152.451 15.31 152.087 16.4113C151.723 17.5126 153.782 24.6348 152.847 25.3096Z"
+                                        fill="#FFD12B" />
+                                </svg>
+                                <h3>James M</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btngrp d-flex align-items-center justify-content-start gap-4 w-100">
+                        <div class="swiper-button-prev">
+
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.2041 9.40234L1.14269 9.40234" stroke="white" stroke-width="1.67442"
+                                    stroke-linecap="round" />
+                                <path
+                                    d="M9.11914 18.0947L1.08232 10.0579C0.755371 9.73096 0.755371 9.20086 1.08232 8.87391L9.11914 0.837095"
+                                    stroke="white" stroke-width="1.67442" stroke-linecap="round" />
+                            </svg>
+
+                        </div>
+                        <div class="swiper-button-next">
+
+
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.837158 9.53027H17.8986" stroke="white" stroke-width="1.67442"
+                                    stroke-linecap="round" />
+                                <path
+                                    d="M9.92212 0.837402L17.9589 8.87422C18.2859 9.20117 18.2859 9.73126 17.9589 10.0582L9.92212 18.095"
+                                    stroke="white" stroke-width="1.67442" stroke-linecap="round" />
+                            </svg>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- What Slider Section End   -->
+        <!-- why choose card Section start   -->
+        <section class="why-choose-card my-5">
+            <div class="container">
+                <h2 class="text-center">Why Choose <br> <span>Traped Out</span> Apparel?</h2>
+                <div class="row gap-3 flex-wrap flex-lg-nowrap mt-5">
+                    <div class="col-md-3 why-card d-flex flex-column align-items-start gap-4 justify-content-between">
+                        <div class="icon">
+
+                            <svg width="39" height="39" viewBox="0 0 39 39" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M38.0232 17.4921L37.5839 22.1597C36.8601 29.8505 36.4982 33.6959 34.2315 36.0146C31.9648 38.3333 28.5676 38.3333 21.7732 38.3333H16.5601C9.76573 38.3333 6.36853 38.3333 4.10185 36.0146C1.83517 33.6959 1.47325 29.8505 0.749421 22.1596L0.310131 17.4921C-0.0348831 13.8263 -0.20739 11.9933 0.419722 11.2356C0.758959 10.8258 1.22026 10.5746 1.71347 10.5313C2.62523 10.4512 3.77024 11.7547 6.06025 14.3617C7.24455 15.7099 7.83671 16.3841 8.4973 16.4884C8.86332 16.5463 9.23626 16.4868 9.57424 16.3167C10.1842 16.0098 10.5909 15.1764 11.4043 13.5097L15.6916 4.72431C17.2286 1.57477 17.9971 0 19.1667 0C20.3362 0 21.1047 1.57477 22.6417 4.7243L26.929 13.5096C27.7424 15.1764 28.1491 16.0098 28.7591 16.3167C29.0971 16.4868 29.47 16.5463 29.836 16.4884C30.4966 16.3841 31.0888 15.7099 32.2731 14.3617C34.5631 11.7547 35.7081 10.4512 36.6199 10.5313C37.1131 10.5746 37.5744 10.8258 37.9136 11.2356C38.5407 11.9933 38.3682 13.8263 38.0232 17.4921ZM11.9792 30.6667C11.9792 29.8728 12.6228 29.2292 13.4167 29.2292H24.9167C25.7106 29.2292 26.3542 29.8728 26.3542 30.6667C26.3542 31.4606 25.7106 32.1042 24.9167 32.1042H13.4167C12.6228 32.1042 11.9792 31.4606 11.9792 30.6667Z"
+                                    fill="black" />
+                            </svg>
+                        </div>
+                        <div class="content">
+                            <h3 class="mb-3">Unmatched Streetwear Style</h3>
+                            <p>We blend culture, creativity, and modern trends to deliver designs that stand out in
+                                every
+                                environment — from casual days to bold nights.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 why-card d-flex flex-column align-items-start gap-4 justify-content-between">
+                        <div class="icon">
+                            <svg width="44" height="46" viewBox="0 0 44 46" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M43.9986 45.9434C41.0429 45.9434 38.1224 45.9434 35.1464 45.9434C35.1356 45.7019 35.118 45.4823 35.1166 45.2614C35.1139 43.4089 35.1153 41.5564 35.1139 39.7038C35.1139 39.5213 35.1247 39.3333 35.0869 39.1577C35.0057 38.7844 34.6375 38.4976 34.3073 38.5169C33.9663 38.5374 33.6577 38.8476 33.6131 39.2373C33.5928 39.4184 33.5995 39.6023 33.5995 39.7848C33.5982 41.5687 33.5995 43.3526 33.5995 45.1365C33.5995 45.3849 33.5995 45.6319 33.5995 45.8638C33.0677 46.0093 11.4019 46.0532 10.4289 45.9146C10.4181 45.6909 10.3951 45.4494 10.3951 45.2092C10.3923 43.402 10.3937 41.5961 10.3923 39.7889C10.3923 39.6064 10.3991 39.4212 10.3802 39.24C10.3369 38.8503 10.0324 38.5374 9.68996 38.5141C9.35839 38.4908 8.98757 38.7762 8.90637 39.1495C8.86848 39.3251 8.87931 39.5131 8.87795 39.6956C8.8766 41.5248 8.8766 43.3554 8.8766 45.1845C8.8766 45.411 8.8766 45.6388 8.8766 45.8514C8.35962 46.0134 0.734867 46.0449 0 45.894C0.125861 44.7907 0.244956 43.6833 0.381644 42.5787C0.541339 41.2874 0.709153 39.9975 0.887795 38.7103C1.04749 37.559 1.16929 36.3981 1.41154 35.2633C1.93529 32.807 3.28593 30.8667 5.30647 29.4533C7.49348 27.9232 9.7468 26.4892 11.9717 25.0141C12.0082 24.9908 12.0543 24.9812 12.1246 24.9551C14.1993 25.9513 16.2956 26.953 18.3866 27.9644C19.2811 28.3966 20.173 28.8124 21.1799 28.9373C22.4967 29.0992 23.7377 28.8797 24.9259 28.3143C27.1468 27.2563 29.3636 26.1915 31.583 25.1294C31.7035 25.0717 31.828 25.0251 31.9742 24.9647C33.4439 25.9403 34.9136 26.916 36.382 27.893C37.0979 28.3692 37.8206 28.8358 38.5244 29.3284C41.0876 31.1233 42.5032 33.6043 42.8618 36.7371C43.0851 38.687 43.3653 40.6301 43.6102 42.5773C43.7483 43.6833 43.866 44.7907 43.9986 45.9434Z"
+                                    fill="black" />
+                                <path
+                                    d="M28.2648 13.8342C28.2648 14.9759 28.3122 16.1203 28.2554 17.2579C28.1227 19.8816 26.113 22.3722 23.2683 23.0007C19.7239 23.7843 15.7586 21.096 15.6936 16.7804C15.6625 14.7028 15.6936 12.6239 15.6801 10.5449C15.6774 10.1964 15.8005 10.0111 16.1131 9.87118C17.2702 9.3511 18.4625 8.95178 19.7117 8.75144C22.3264 8.33428 24.8652 8.61833 27.3243 9.62692C28.3 10.0276 28.3041 10.018 28.3041 11.0938C28.3041 12.0077 28.3041 12.9217 28.3041 13.8342C28.2919 13.8342 28.2784 13.8342 28.2648 13.8342Z"
+                                    fill="black" />
+                                <path
+                                    d="M29.8318 10.9253C30.3813 11.3315 30.8198 11.6375 31.2379 11.9709C32.8823 13.28 34.2424 14.8526 35.4604 16.572C36.1804 17.5889 36.2142 18.6592 35.884 19.7666C35.5375 20.9275 34.8162 21.8304 33.7186 22.3601C30.4679 23.9299 27.2158 25.4984 23.9475 27.0312C22.6807 27.6254 21.349 27.6185 20.081 27.0312C17.584 25.873 15.1115 24.6627 12.6267 23.4771C11.8743 23.1176 11.1096 22.7828 10.3626 22.4136C8.67224 21.5793 7.73437 19.8668 7.94279 17.9799C7.97391 17.6931 8.05376 17.3858 8.20127 17.1443C9.6277 14.7977 11.4723 12.8478 13.6999 11.2684C13.8082 11.1915 13.9273 11.1325 14.11 11.0227C14.1289 11.2752 14.156 11.466 14.156 11.6567C14.1601 13.3487 14.1181 15.042 14.1682 16.7326C14.2507 19.5457 15.4038 21.8236 17.7451 23.3673C22.3722 26.4164 28.3716 23.801 29.5639 18.5782C29.7344 17.829 29.8007 17.0441 29.821 16.2743C29.8602 14.7662 29.8318 13.2567 29.8318 11.7473C29.8318 11.5236 29.8318 11.3027 29.8318 10.9253Z"
+                                    fill="black" />
+                                <path
+                                    d="M33.1691 11.444C26.5405 5.62982 17.6896 5.48985 10.8931 11.4824C10.9337 11.2985 10.9391 11.1736 10.9864 11.0707C11.8864 9.12901 12.7729 7.18044 13.7013 5.25383C15.0587 2.43526 17.2754 0.671939 20.3178 0.151863C24.8244 -0.616588 28.6341 1.58996 30.3853 5.44319C31.2515 7.34923 32.1596 9.23742 33.0473 11.1338C33.0947 11.2326 33.1285 11.3397 33.1691 11.444Z"
+                                    fill="black" />
+                            </svg>
+                        </div>
+                        <div class="content">
+                            <h3 class="mb-3">Unmatched Streetwear Style</h3>
+                            <p>We blend culture, creativity, and modern trends to deliver designs that stand out in
+                                every
+                                environment — from casual days to bold nights.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 why-card d-flex flex-column align-items-start gap-4 justify-content-between">
+                        <div class="icon">
+
+                            <svg width="51" height="36" viewBox="0 0 51 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20.4786 32.4643C19.395 34.6972 17.6769 36.01 15.1772 35.9921C12.8157 35.9756 11.3784 34.5998 10.6058 32.4193C10.2993 32.4193 9.99876 32.4193 9.69977 32.4193C8.30802 32.4193 6.91778 32.4313 5.52603 32.4148C4.42113 32.4014 3.63647 31.6221 3.64254 30.585C3.64861 29.548 4.43176 28.8002 5.5488 28.7777C6.10429 28.7672 6.66129 28.7882 7.21829 28.7717C8.28525 28.7387 9.10027 27.9639 9.10027 27.0018C9.10179 26.0397 8.28525 25.2514 7.21981 25.2319C6.03144 25.2109 4.84154 25.2484 3.65468 25.2199C2.26293 25.187 1.41453 23.8412 1.99581 22.6198C2.28722 22.0069 2.79869 21.6697 3.47559 21.5933C3.70021 21.5678 3.93091 21.5843 4.15857 21.5843C8.66013 21.5843 13.1617 21.5843 17.6648 21.5843C17.8666 21.5843 18.07 21.5948 18.2719 21.5798C19.2493 21.5063 20.0112 20.7465 20.0294 19.8369C20.0476 18.9077 19.2584 18.106 18.2506 18.0385C18.0488 18.025 17.8454 18.0355 17.6435 18.0355C15.4428 18.0355 13.2421 18.0415 11.043 18.0325C10.1338 18.0295 9.5055 17.6009 9.2232 16.8336C8.81038 15.7156 9.54193 14.5347 10.7364 14.4029C10.961 14.3774 11.1917 14.3924 11.4193 14.3924C15.3396 14.3924 19.2599 14.3924 23.1802 14.3909C23.4078 14.3909 23.6385 14.4059 23.8616 14.3774C24.7935 14.2575 25.5084 13.4692 25.4947 12.5955C25.481 11.7158 24.7525 10.953 23.8176 10.8526C23.593 10.8286 23.3623 10.8421 23.1346 10.8421C17.4189 10.8421 11.7032 10.8421 5.98742 10.8421C5.75976 10.8421 5.53059 10.8556 5.30445 10.8346C4.34828 10.7387 3.63799 9.95343 3.64254 9.0078C3.64709 8.05317 4.35132 7.28738 5.31811 7.20195C5.51845 7.18397 5.72182 7.19596 5.92519 7.19596C9.84547 7.19596 13.7657 7.19596 17.686 7.19596C17.8879 7.19596 18.0913 7.20645 18.2931 7.18996C19.266 7.10904 20.0248 6.33425 20.0294 5.42758C20.0339 4.52241 19.2766 3.73863 18.3053 3.65321C18.1049 3.63522 17.9015 3.64721 17.6982 3.64721C14.8904 3.64721 12.0841 3.65021 9.27632 3.64421C8.30954 3.64272 7.67968 3.2231 7.39283 2.42583C6.99064 1.30636 7.73735 0.132934 8.93332 0.0100464C9.10938 -0.00793707 9.28695 0.00255331 9.46452 0.00255331C17.6086 0.00255331 25.7527 0.00255331 33.8953 0.00255331C33.997 0.00255331 34.0971 -0.000443943 34.1988 0.00405193C35.3113 0.0460135 36.0778 0.778842 36.0186 1.87284C35.9503 3.14218 35.7833 4.40552 35.6543 5.67036C35.6058 6.14093 35.5405 6.61 35.4692 7.19596C35.7651 7.19596 36.0277 7.19596 36.2903 7.19596C39.1481 7.19596 42.006 7.21095 44.8639 7.18697C45.8656 7.17798 46.544 7.55713 46.9507 8.47429C48.2256 11.3516 49.5339 14.2155 50.7936 17.1004C50.9651 17.493 51.0289 17.9771 50.9879 18.4042C50.7799 20.5892 50.5234 22.7682 50.2806 24.9487C50.0712 26.8325 49.8769 28.7177 49.6401 30.597C49.4793 31.8693 48.8054 32.4118 47.488 32.4178C46.4514 32.4223 45.4148 32.4208 44.3767 32.4238C44.3266 32.4238 44.2765 32.4373 44.1824 32.4493C43.9972 32.7655 43.8136 33.1162 43.5981 33.4474C42.3247 35.4046 39.998 36.3817 37.7685 35.8602C36.4162 35.544 35.4252 34.7287 34.768 33.5253C34.5889 33.1971 34.4538 32.8464 34.2778 32.4643C29.7033 32.4643 25.1107 32.4643 20.4786 32.4643ZM43.9289 10.8631C42.4674 10.8631 41.0559 10.8166 39.649 10.8796C38.6624 10.923 38.1388 11.491 37.9643 12.4906C37.8793 12.9807 37.814 13.4752 37.7609 13.9697C37.6198 15.281 37.4528 16.5923 37.3663 17.9081C37.2965 18.9707 38.0159 19.7005 39.0935 19.7799C39.2695 19.7934 39.4471 19.7844 39.6232 19.7844C41.7434 19.7844 43.8652 19.7844 45.9855 19.7844C46.3376 19.7844 46.6882 19.7844 47.063 19.7844C47.2482 19.0246 47.4106 18.3412 47.0388 17.5949C46.3482 16.2117 45.7381 14.788 45.093 13.3823C44.7091 12.5476 44.322 11.7143 43.9289 10.8631ZM17.1988 30.1594C17.1928 29.6169 16.997 29.2348 16.6494 28.9965C16.2563 28.7282 15.8814 28.8526 15.5051 29.01C14.4487 29.4506 13.8796 30.7004 14.2985 31.6475C14.5808 32.2845 15.0255 32.4748 15.6933 32.247C16.6525 31.9203 17.211 31.1455 17.1988 30.1594ZM40.8753 30.023C40.8434 29.9136 40.8009 29.6394 40.6886 29.3981C40.5171 29.0324 40.1938 28.8286 39.7825 28.8391C38.4485 28.8706 37.4088 30.606 38.022 31.7614C38.2906 32.268 38.7232 32.4478 39.2741 32.2815C40.2773 31.9802 40.8753 31.198 40.8753 30.023Z"
+                                    fill="black" />
+                                <path
+                                    d="M2.71824 18.0299C2.39041 18.0299 2.06258 18.0478 1.73627 18.0269C0.737613 17.9639 0 17.1861 0 16.212C0 15.2289 0.726989 14.4466 1.7302 14.3987C2.40862 14.3657 3.0916 14.3672 3.77154 14.3987C4.76716 14.4451 5.50781 15.2379 5.50781 16.209C5.50781 17.1861 4.77475 17.9639 3.77609 18.0269C3.4255 18.0493 3.07035 18.0299 2.71824 18.0299Z"
+                                    fill="black" />
+                            </svg>
+
+                        </div>
+                        <div class="content">
+                            <h3 class="mb-3">Unmatched Streetwear Style</h3>
+                            <p>We blend culture, creativity, and modern trends to deliver designs that stand out in
+                                every
+                                environment — from casual days to bold nights.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 why-card d-flex flex-column align-items-start gap-4 justify-content-between">
+                        <div class="icon">
+
+                            <svg width="46" height="46" viewBox="0 0 46 46" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M23.0001 42.1667C31.4684 42.1667 38.3334 35.3017 38.3334 26.8333C38.3334 18.365 31.4684 11.5 23.0001 11.5C14.5317 11.5 7.66675 18.365 7.66675 26.8333C7.66675 35.3017 14.5317 42.1667 23.0001 42.1667ZM23.0001 21.0833C22.4556 21.0833 22.0915 21.7366 21.3632 23.0431L21.1747 23.3812C20.9678 23.7524 20.8643 23.9381 20.7029 24.0606C20.5416 24.1831 20.3406 24.2285 19.9387 24.3195L19.5728 24.4022C18.1585 24.7223 17.4513 24.8823 17.2831 25.4233C17.1149 25.9643 17.5969 26.528 18.5611 27.6555L18.8106 27.9472C19.0846 28.2676 19.2216 28.4278 19.2832 28.626C19.3448 28.8242 19.3241 29.0379 19.2827 29.4654L19.245 29.8546C19.0992 31.3589 19.0263 32.1111 19.4668 32.4455C19.9073 32.7798 20.5694 32.475 21.8936 31.8653L22.2362 31.7075C22.6125 31.5343 22.8006 31.4476 23.0001 31.4476C23.1995 31.4476 23.3877 31.5343 23.764 31.7075L24.1066 31.8653C25.4308 32.475 26.0929 32.7798 26.5334 32.4455C26.9738 32.1111 26.901 31.3589 26.7552 29.8546L26.7175 29.4654C26.676 29.038 26.6553 28.8242 26.717 28.626C26.7786 28.4278 26.9156 28.2676 27.1896 27.9473L27.439 27.6555C28.4032 26.5281 28.8853 25.9643 28.7171 25.4233C28.5488 24.8823 27.8417 24.7223 26.4273 24.4022L26.0614 24.3195C25.6595 24.2285 25.4586 24.1831 25.2972 24.0606C25.1359 23.9381 25.0324 23.7524 24.8254 23.3812L24.637 23.0431C23.9087 21.7366 23.5445 21.0833 23.0001 21.0833Z"
+                                    fill="black" />
+                                <path
+                                    d="M21.0834 3.8335H24.9167C28.5308 3.8335 30.3379 3.8335 31.4607 4.95625C32.5676 6.06316 32.5832 7.83518 32.5834 11.3482C29.7998 9.62188 26.5164 8.62516 23.0001 8.62516C19.4838 8.62516 16.2003 9.62188 13.4167 11.3482C13.417 7.83518 13.4326 6.06316 14.5395 4.95625C15.6623 3.8335 17.4693 3.8335 21.0834 3.8335Z"
+                                    fill="black" />
+                            </svg>
+
+                        </div>
+                        <div class="content">
+                            <h3 class="mb-3">Unmatched Streetwear Style</h3>
+                            <p>We blend culture, creativity, and modern trends to deliver designs that stand out in
+                                every
+                                environment — from casual days to bold nights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- why choose card Section End   -->
+        <!-- Trap Customer slider Section start   -->
+        <section class="trap-customer-love">
+            <h2 class="section-heading text-center">OUR CUSTOMERS WEAR IT.<br><span>THEY LOVE IT.</span></h2>
+            <div class="swiper customerlove mb-5">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide  d-flex flex-column align-items-start text-start">
+                        <a href="./single.html" class="text-decoration-none text-black">
+                            <img src="./assets/images/customer-love.webp" alt="productImage">
+                            <div class="content ps-3 mt-4">
+                                <h2>myka r.</h2>
+                                <p class="mb-1">11/28/2025</p>
+                                <svg width="132" height="26" viewBox="0 0 158 26" fill="none" class="mb-2"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.1853 25.5624C19.292 26.1995 13.5605 22.1609 12.4628 22.1521C11.3651 22.1433 5.56906 26.0889 4.68623 25.4375C3.80341 24.7861 5.87889 18.0953 5.54814 17.0502C5.21738 16.0051 -0.331948 11.7202 0.0156656 10.6805C0.363356 9.64083 7.37756 9.54427 8.27082 8.90716C9.16407 8.27014 11.5305 1.67627 12.6283 1.68507C13.7259 1.69394 15.9854 8.32508 16.8682 8.97649C17.751 9.62783 24.7629 9.83749 25.0937 10.8826C25.4244 11.9277 19.8067 16.1226 19.459 17.1623C19.1114 18.2019 21.0785 24.9253 20.1853 25.5624Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M53.8958 24.9611C52.9608 25.6272 46.961 21.4053 45.8119 21.396C44.6628 21.3868 38.5956 25.5116 37.6714 24.8306C36.7473 24.1496 38.9199 17.1551 38.5737 16.0625C38.2274 14.97 32.4184 10.4906 32.7823 9.40376C33.1462 8.31689 40.4887 8.21594 41.4238 7.54992C42.3588 6.88398 44.836 -0.00919001 45.9851 9.19915e-06C47.1341 0.0092884 49.4994 6.94141 50.4235 7.62239C51.3477 8.30329 58.6877 8.52247 59.034 9.61502C59.3802 10.7076 53.4995 15.0929 53.1356 16.1797C52.7717 17.2666 54.8309 24.2951 53.8958 24.9611Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M87.866 25.3096C86.931 25.9845 80.9312 21.7064 79.7822 21.697C78.6331 21.6877 72.5658 25.8674 71.6416 25.1774C70.7175 24.4873 72.8901 17.3996 72.5439 16.2926C72.1976 15.1855 66.3886 10.6464 66.7525 9.5451C67.1164 8.44376 74.4589 8.34146 75.394 7.66657C76.329 6.99176 78.8062 0.0068009 79.9554 0.0161226C81.1044 0.0255254 83.4696 7.04996 84.3937 7.74001C85.3179 8.42998 92.6579 8.65208 93.0042 9.75917C93.3504 10.8663 87.4697 15.31 87.1058 16.4113C86.7419 17.5126 88.8011 24.6348 87.866 25.3096Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M120.63 25.3096C119.745 25.9845 114.061 21.7064 112.972 21.697C111.883 21.6877 106.135 25.8674 105.26 25.1774C104.384 24.4873 106.443 17.3996 106.115 16.2926C105.787 15.1855 100.283 10.6464 100.628 9.5451C100.973 8.44376 107.929 8.34146 108.815 7.66657C109.701 6.99176 112.047 0.0068009 113.136 0.0161226C114.225 0.0255254 116.465 7.04996 117.341 7.74001C118.216 8.42998 125.17 8.65208 125.498 9.75917C125.826 10.8663 120.255 15.31 119.91 16.4113C119.565 17.5126 121.516 24.6348 120.63 25.3096Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M152.847 25.3096C151.912 25.9845 145.912 21.7064 144.763 21.697C143.614 21.6877 137.547 25.8674 136.623 25.1774C135.699 24.4873 137.871 17.3996 137.525 16.2926C137.179 15.1855 131.37 10.6464 131.734 9.5451C132.098 8.44376 139.44 8.34146 140.375 7.66657C141.31 6.99176 143.787 0.0068009 144.937 0.0161226C146.086 0.0255254 148.451 7.04996 149.375 7.74001C150.299 8.42998 157.639 8.65208 157.985 9.75917C158.332 10.8663 152.451 15.31 152.087 16.4113C151.723 17.5126 153.782 24.6348 152.847 25.3096Z"
+                                        fill="#FFD12B" />
+                                </svg>
+                                <p>I want you to bring this back</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide  d-flex flex-column align-items-start text-start">
+                        <a href="./single.html" class="text-decoration-none text-black">
+                            <img src="./assets/images/customer-love.webp" alt="productImage">
+                            <div class="content ps-3 mt-4">
+                                <h2>myka r.</h2>
+                                <p class="mb-1">11/28/2025</p>
+                                <svg width="132" height="26" viewBox="0 0 158 26" fill="none" class="mb-2"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.1853 25.5624C19.292 26.1995 13.5605 22.1609 12.4628 22.1521C11.3651 22.1433 5.56906 26.0889 4.68623 25.4375C3.80341 24.7861 5.87889 18.0953 5.54814 17.0502C5.21738 16.0051 -0.331948 11.7202 0.0156656 10.6805C0.363356 9.64083 7.37756 9.54427 8.27082 8.90716C9.16407 8.27014 11.5305 1.67627 12.6283 1.68507C13.7259 1.69394 15.9854 8.32508 16.8682 8.97649C17.751 9.62783 24.7629 9.83749 25.0937 10.8826C25.4244 11.9277 19.8067 16.1226 19.459 17.1623C19.1114 18.2019 21.0785 24.9253 20.1853 25.5624Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M53.8958 24.9611C52.9608 25.6272 46.961 21.4053 45.8119 21.396C44.6628 21.3868 38.5956 25.5116 37.6714 24.8306C36.7473 24.1496 38.9199 17.1551 38.5737 16.0625C38.2274 14.97 32.4184 10.4906 32.7823 9.40376C33.1462 8.31689 40.4887 8.21594 41.4238 7.54992C42.3588 6.88398 44.836 -0.00919001 45.9851 9.19915e-06C47.1341 0.0092884 49.4994 6.94141 50.4235 7.62239C51.3477 8.30329 58.6877 8.52247 59.034 9.61502C59.3802 10.7076 53.4995 15.0929 53.1356 16.1797C52.7717 17.2666 54.8309 24.2951 53.8958 24.9611Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M87.866 25.3096C86.931 25.9845 80.9312 21.7064 79.7822 21.697C78.6331 21.6877 72.5658 25.8674 71.6416 25.1774C70.7175 24.4873 72.8901 17.3996 72.5439 16.2926C72.1976 15.1855 66.3886 10.6464 66.7525 9.5451C67.1164 8.44376 74.4589 8.34146 75.394 7.66657C76.329 6.99176 78.8062 0.0068009 79.9554 0.0161226C81.1044 0.0255254 83.4696 7.04996 84.3937 7.74001C85.3179 8.42998 92.6579 8.65208 93.0042 9.75917C93.3504 10.8663 87.4697 15.31 87.1058 16.4113C86.7419 17.5126 88.8011 24.6348 87.866 25.3096Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M120.63 25.3096C119.745 25.9845 114.061 21.7064 112.972 21.697C111.883 21.6877 106.135 25.8674 105.26 25.1774C104.384 24.4873 106.443 17.3996 106.115 16.2926C105.787 15.1855 100.283 10.6464 100.628 9.5451C100.973 8.44376 107.929 8.34146 108.815 7.66657C109.701 6.99176 112.047 0.0068009 113.136 0.0161226C114.225 0.0255254 116.465 7.04996 117.341 7.74001C118.216 8.42998 125.17 8.65208 125.498 9.75917C125.826 10.8663 120.255 15.31 119.91 16.4113C119.565 17.5126 121.516 24.6348 120.63 25.3096Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M152.847 25.3096C151.912 25.9845 145.912 21.7064 144.763 21.697C143.614 21.6877 137.547 25.8674 136.623 25.1774C135.699 24.4873 137.871 17.3996 137.525 16.2926C137.179 15.1855 131.37 10.6464 131.734 9.5451C132.098 8.44376 139.44 8.34146 140.375 7.66657C141.31 6.99176 143.787 0.0068009 144.937 0.0161226C146.086 0.0255254 148.451 7.04996 149.375 7.74001C150.299 8.42998 157.639 8.65208 157.985 9.75917C158.332 10.8663 152.451 15.31 152.087 16.4113C151.723 17.5126 153.782 24.6348 152.847 25.3096Z"
+                                        fill="#FFD12B" />
+                                </svg>
+                                <p>I want you to bring this back</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide  d-flex flex-column align-items-start text-start">
+                        <a href="./single.html" class="text-decoration-none text-black">
+                            <img src="./assets/images/customer-love.webp" alt="productImage">
+                            <div class="content ps-3 mt-4">
+                                <h2>myka r.</h2>
+                                <p class="mb-1">11/28/2025</p>
+                                <svg width="132" height="26" viewBox="0 0 158 26" fill="none" class="mb-2"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.1853 25.5624C19.292 26.1995 13.5605 22.1609 12.4628 22.1521C11.3651 22.1433 5.56906 26.0889 4.68623 25.4375C3.80341 24.7861 5.87889 18.0953 5.54814 17.0502C5.21738 16.0051 -0.331948 11.7202 0.0156656 10.6805C0.363356 9.64083 7.37756 9.54427 8.27082 8.90716C9.16407 8.27014 11.5305 1.67627 12.6283 1.68507C13.7259 1.69394 15.9854 8.32508 16.8682 8.97649C17.751 9.62783 24.7629 9.83749 25.0937 10.8826C25.4244 11.9277 19.8067 16.1226 19.459 17.1623C19.1114 18.2019 21.0785 24.9253 20.1853 25.5624Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M53.8958 24.9611C52.9608 25.6272 46.961 21.4053 45.8119 21.396C44.6628 21.3868 38.5956 25.5116 37.6714 24.8306C36.7473 24.1496 38.9199 17.1551 38.5737 16.0625C38.2274 14.97 32.4184 10.4906 32.7823 9.40376C33.1462 8.31689 40.4887 8.21594 41.4238 7.54992C42.3588 6.88398 44.836 -0.00919001 45.9851 9.19915e-06C47.1341 0.0092884 49.4994 6.94141 50.4235 7.62239C51.3477 8.30329 58.6877 8.52247 59.034 9.61502C59.3802 10.7076 53.4995 15.0929 53.1356 16.1797C52.7717 17.2666 54.8309 24.2951 53.8958 24.9611Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M87.866 25.3096C86.931 25.9845 80.9312 21.7064 79.7822 21.697C78.6331 21.6877 72.5658 25.8674 71.6416 25.1774C70.7175 24.4873 72.8901 17.3996 72.5439 16.2926C72.1976 15.1855 66.3886 10.6464 66.7525 9.5451C67.1164 8.44376 74.4589 8.34146 75.394 7.66657C76.329 6.99176 78.8062 0.0068009 79.9554 0.0161226C81.1044 0.0255254 83.4696 7.04996 84.3937 7.74001C85.3179 8.42998 92.6579 8.65208 93.0042 9.75917C93.3504 10.8663 87.4697 15.31 87.1058 16.4113C86.7419 17.5126 88.8011 24.6348 87.866 25.3096Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M120.63 25.3096C119.745 25.9845 114.061 21.7064 112.972 21.697C111.883 21.6877 106.135 25.8674 105.26 25.1774C104.384 24.4873 106.443 17.3996 106.115 16.2926C105.787 15.1855 100.283 10.6464 100.628 9.5451C100.973 8.44376 107.929 8.34146 108.815 7.66657C109.701 6.99176 112.047 0.0068009 113.136 0.0161226C114.225 0.0255254 116.465 7.04996 117.341 7.74001C118.216 8.42998 125.17 8.65208 125.498 9.75917C125.826 10.8663 120.255 15.31 119.91 16.4113C119.565 17.5126 121.516 24.6348 120.63 25.3096Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M152.847 25.3096C151.912 25.9845 145.912 21.7064 144.763 21.697C143.614 21.6877 137.547 25.8674 136.623 25.1774C135.699 24.4873 137.871 17.3996 137.525 16.2926C137.179 15.1855 131.37 10.6464 131.734 9.5451C132.098 8.44376 139.44 8.34146 140.375 7.66657C141.31 6.99176 143.787 0.0068009 144.937 0.0161226C146.086 0.0255254 148.451 7.04996 149.375 7.74001C150.299 8.42998 157.639 8.65208 157.985 9.75917C158.332 10.8663 152.451 15.31 152.087 16.4113C151.723 17.5126 153.782 24.6348 152.847 25.3096Z"
+                                        fill="#FFD12B" />
+                                </svg>
+                                <p>I want you to bring this back</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide  d-flex flex-column align-items-start text-start">
+                        <a href="./single.html" class="text-decoration-none text-black">
+                            <img src="./assets/images/customer-love.webp" alt="productImage">
+                            <div class="content ps-3 mt-4">
+                                <h2>myka r.</h2>
+                                <p class="mb-1">11/28/2025</p>
+                                <svg width="132" height="26" viewBox="0 0 158 26" fill="none" class="mb-2"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.1853 25.5624C19.292 26.1995 13.5605 22.1609 12.4628 22.1521C11.3651 22.1433 5.56906 26.0889 4.68623 25.4375C3.80341 24.7861 5.87889 18.0953 5.54814 17.0502C5.21738 16.0051 -0.331948 11.7202 0.0156656 10.6805C0.363356 9.64083 7.37756 9.54427 8.27082 8.90716C9.16407 8.27014 11.5305 1.67627 12.6283 1.68507C13.7259 1.69394 15.9854 8.32508 16.8682 8.97649C17.751 9.62783 24.7629 9.83749 25.0937 10.8826C25.4244 11.9277 19.8067 16.1226 19.459 17.1623C19.1114 18.2019 21.0785 24.9253 20.1853 25.5624Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M53.8958 24.9611C52.9608 25.6272 46.961 21.4053 45.8119 21.396C44.6628 21.3868 38.5956 25.5116 37.6714 24.8306C36.7473 24.1496 38.9199 17.1551 38.5737 16.0625C38.2274 14.97 32.4184 10.4906 32.7823 9.40376C33.1462 8.31689 40.4887 8.21594 41.4238 7.54992C42.3588 6.88398 44.836 -0.00919001 45.9851 9.19915e-06C47.1341 0.0092884 49.4994 6.94141 50.4235 7.62239C51.3477 8.30329 58.6877 8.52247 59.034 9.61502C59.3802 10.7076 53.4995 15.0929 53.1356 16.1797C52.7717 17.2666 54.8309 24.2951 53.8958 24.9611Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M87.866 25.3096C86.931 25.9845 80.9312 21.7064 79.7822 21.697C78.6331 21.6877 72.5658 25.8674 71.6416 25.1774C70.7175 24.4873 72.8901 17.3996 72.5439 16.2926C72.1976 15.1855 66.3886 10.6464 66.7525 9.5451C67.1164 8.44376 74.4589 8.34146 75.394 7.66657C76.329 6.99176 78.8062 0.0068009 79.9554 0.0161226C81.1044 0.0255254 83.4696 7.04996 84.3937 7.74001C85.3179 8.42998 92.6579 8.65208 93.0042 9.75917C93.3504 10.8663 87.4697 15.31 87.1058 16.4113C86.7419 17.5126 88.8011 24.6348 87.866 25.3096Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M120.63 25.3096C119.745 25.9845 114.061 21.7064 112.972 21.697C111.883 21.6877 106.135 25.8674 105.26 25.1774C104.384 24.4873 106.443 17.3996 106.115 16.2926C105.787 15.1855 100.283 10.6464 100.628 9.5451C100.973 8.44376 107.929 8.34146 108.815 7.66657C109.701 6.99176 112.047 0.0068009 113.136 0.0161226C114.225 0.0255254 116.465 7.04996 117.341 7.74001C118.216 8.42998 125.17 8.65208 125.498 9.75917C125.826 10.8663 120.255 15.31 119.91 16.4113C119.565 17.5126 121.516 24.6348 120.63 25.3096Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M152.847 25.3096C151.912 25.9845 145.912 21.7064 144.763 21.697C143.614 21.6877 137.547 25.8674 136.623 25.1774C135.699 24.4873 137.871 17.3996 137.525 16.2926C137.179 15.1855 131.37 10.6464 131.734 9.5451C132.098 8.44376 139.44 8.34146 140.375 7.66657C141.31 6.99176 143.787 0.0068009 144.937 0.0161226C146.086 0.0255254 148.451 7.04996 149.375 7.74001C150.299 8.42998 157.639 8.65208 157.985 9.75917C158.332 10.8663 152.451 15.31 152.087 16.4113C151.723 17.5126 153.782 24.6348 152.847 25.3096Z"
+                                        fill="#FFD12B" />
+                                </svg>
+                                <p>I want you to bring this back</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide  d-flex flex-column align-items-start text-start">
+                        <a href="./single.html" class="text-decoration-none text-black">
+                            <img src="./assets/images/customer-love.webp" alt="productImage">
+                            <div class="content ps-3 mt-4">
+                                <h2>myka r.</h2>
+                                <p class="mb-1">11/28/2025</p>
+                                <svg width="132" height="26" viewBox="0 0 158 26" fill="none" class="mb-2"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.1853 25.5624C19.292 26.1995 13.5605 22.1609 12.4628 22.1521C11.3651 22.1433 5.56906 26.0889 4.68623 25.4375C3.80341 24.7861 5.87889 18.0953 5.54814 17.0502C5.21738 16.0051 -0.331948 11.7202 0.0156656 10.6805C0.363356 9.64083 7.37756 9.54427 8.27082 8.90716C9.16407 8.27014 11.5305 1.67627 12.6283 1.68507C13.7259 1.69394 15.9854 8.32508 16.8682 8.97649C17.751 9.62783 24.7629 9.83749 25.0937 10.8826C25.4244 11.9277 19.8067 16.1226 19.459 17.1623C19.1114 18.2019 21.0785 24.9253 20.1853 25.5624Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M53.8958 24.9611C52.9608 25.6272 46.961 21.4053 45.8119 21.396C44.6628 21.3868 38.5956 25.5116 37.6714 24.8306C36.7473 24.1496 38.9199 17.1551 38.5737 16.0625C38.2274 14.97 32.4184 10.4906 32.7823 9.40376C33.1462 8.31689 40.4887 8.21594 41.4238 7.54992C42.3588 6.88398 44.836 -0.00919001 45.9851 9.19915e-06C47.1341 0.0092884 49.4994 6.94141 50.4235 7.62239C51.3477 8.30329 58.6877 8.52247 59.034 9.61502C59.3802 10.7076 53.4995 15.0929 53.1356 16.1797C52.7717 17.2666 54.8309 24.2951 53.8958 24.9611Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M87.866 25.3096C86.931 25.9845 80.9312 21.7064 79.7822 21.697C78.6331 21.6877 72.5658 25.8674 71.6416 25.1774C70.7175 24.4873 72.8901 17.3996 72.5439 16.2926C72.1976 15.1855 66.3886 10.6464 66.7525 9.5451C67.1164 8.44376 74.4589 8.34146 75.394 7.66657C76.329 6.99176 78.8062 0.0068009 79.9554 0.0161226C81.1044 0.0255254 83.4696 7.04996 84.3937 7.74001C85.3179 8.42998 92.6579 8.65208 93.0042 9.75917C93.3504 10.8663 87.4697 15.31 87.1058 16.4113C86.7419 17.5126 88.8011 24.6348 87.866 25.3096Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M120.63 25.3096C119.745 25.9845 114.061 21.7064 112.972 21.697C111.883 21.6877 106.135 25.8674 105.26 25.1774C104.384 24.4873 106.443 17.3996 106.115 16.2926C105.787 15.1855 100.283 10.6464 100.628 9.5451C100.973 8.44376 107.929 8.34146 108.815 7.66657C109.701 6.99176 112.047 0.0068009 113.136 0.0161226C114.225 0.0255254 116.465 7.04996 117.341 7.74001C118.216 8.42998 125.17 8.65208 125.498 9.75917C125.826 10.8663 120.255 15.31 119.91 16.4113C119.565 17.5126 121.516 24.6348 120.63 25.3096Z"
+                                        fill="#FFD12B" />
+                                    <path
+                                        d="M152.847 25.3096C151.912 25.9845 145.912 21.7064 144.763 21.697C143.614 21.6877 137.547 25.8674 136.623 25.1774C135.699 24.4873 137.871 17.3996 137.525 16.2926C137.179 15.1855 131.37 10.6464 131.734 9.5451C132.098 8.44376 139.44 8.34146 140.375 7.66657C141.31 6.99176 143.787 0.0068009 144.937 0.0161226C146.086 0.0255254 148.451 7.04996 149.375 7.74001C150.299 8.42998 157.639 8.65208 157.985 9.75917C158.332 10.8663 152.451 15.31 152.087 16.4113C151.723 17.5126 153.782 24.6348 152.847 25.3096Z"
+                                        fill="#FFD12B" />
+                                </svg>
+                                <p>I want you to bring this back</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-btn text-center">
+                <a href="./reviews.html" class="trap-btn d-inline-block">Read All Reviews</a>
+            </div>
+        </section>
+        <!-- Trap Customer slider Section End   -->
+        <!-- CTA Footer Top Section Start   -->
+        <section class="ctaFootertop vh-100 d-flex flex-column align-items-start justify-content-around text-start"
+            style="background: url(./assets/images/cta.webp) center / cover no-repeat;">
+            <div class="container">
+                <div class="w-50 text-white">
+                    <h2>Turn Confidence Into Your Everyday Style</h2>
+                    <p>Join thousands of customers who trust us for quality, comfort, and standout style.Your perfect
+                        fit is
+                        waiting — choose the look that matches your energy.</p>
+                    <a href="./collection.html" class="trap-btn trap-2-btn d-inline-block mt-3">Shop Latest Drops</a>
+                </div>
+            </div>
+        </section>
+        <!-- CTA Footer Top Section Start   -->
+        <!-- Footer Section Start   -->
+        <footer class="site-footer overflow-hidden">
+            <div class="container">
+                <div class="row gy-5">
+                    <!-- Logo & Newsletter -->
+                    <div class="col-md-6 pe-0">
+                        <img src="./assets/images/logo/logo-white.webp" alt="Traped Out Logo" class="footer-logo">
+
+                        <h3 class="newsletter-title">RECEIVE EXCLUSIVE DISCOUNTS SIGN UP FOR ACCESS!!</h3>
+
+                        <form class="newsletter-form d-flex mb-md-5">
+                            <input type="email" class="form-control me-0 bg-transparent text-white"
+                                placeholder="ENTER EMAIL" aria-label="Email">
+                            <button class="btn" type="submit">
+
+                                <svg width="15" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.774902 8.82227H16.5686" stroke="white" stroke-width="1.55"
+                                        stroke-linecap="round" />
+                                    <path
+                                        d="M9.18481 0.775391L16.6245 8.21503C16.9271 8.51769 16.9271 9.00839 16.6245 9.31105L9.18481 16.7507"
+                                        stroke="white" stroke-width="1.55" stroke-linecap="round" />
+                                </svg>
+
+                            </button>
+                        </form>
+
+                        <p class="newsletter-note">
+                            By signing up via text you agree to receive recurring automated marketing messages and
+                            shopping
+                            cart reminders at the phone number provided. Consent is not a condition of purchase. Reply
+                            STOP
+                            to unsubscribe. HELP for help. Msg frequency varies. Msg & Data rates may apply. View
+                            Privacy
+                            Policy & ToS.
+                        </p>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div
+                        class="col-lg-2 col-md-3 col-sm-6 quick-links-wrapper d-flex flex-column align-items-start text-start gap-4">
+                        <h5>Quick Links</h5>
+                        <ul class="quick-links list-unstyled">
+                            <li><a href="./shopall.html">Shop All</a></li>
+                            <li><a href="./about.html">About Us</a></li>
+                            <li><a href="./contact.html">Contact Us</a></li>
+                            <li><a href="./reviews.html">Reviews</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Customer Support -->
+                    <div
+                        class="col-md-4 col-sm-6 customersupport d-flex flex-column align-items-start text-start gap-4">
+                        <h5>Customer Support</h5>
+                        <p class="m-0 lh-lg">For any questions regarding your order email us via:
+                            <br><a href="mailto:trapedoutapparel@hotmail.com">trapedoutapparel@hotmail.com</a>
+                        </p>
+
+                        <div class="mt-4 w-100 row align-items-center social-container">
+                            <h5 class="mb-3 w-50">Follow Us</h5>
+                            <div class="social-icons w-50">
+                                <a href="https://www.facebook.com/TrapedOutApparel">
+
+                                    <svg width="12" height="23" viewBox="0 0 12 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9.82868 3.81803H12V0.161034C10.9487 0.0521834 9.89238 -0.00155742 8.83542 3.43437e-05C5.69394 3.43437e-05 3.54572 1.90903 3.54572 5.40503V8.41802H0V12.512H3.54572V23H7.79596V12.512H11.3301L11.8614 8.41802H7.79596V5.80753C7.79596 4.60003 8.11935 3.81803 9.82868 3.81803Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a>
+                                <a href="https://www.instagram.com/trapped_out_apparel">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 9.024C11.4114 9.024 10.836 9.19854 10.3466 9.52555C9.85722 9.85255 9.47578 10.3173 9.25053 10.8611C9.02529 11.4049 8.96635 12.0033 9.08118 12.5806C9.19601 13.1579 9.47945 13.6881 9.89565 14.1044C10.3119 14.5206 10.8421 14.804 11.4194 14.9188C11.9967 15.0336 12.5951 14.9747 13.1389 14.7495C13.6827 14.5242 14.1474 14.1428 14.4745 13.6534C14.8015 13.164 14.976 12.5886 14.976 12C14.976 11.6092 14.899 11.2222 14.7495 10.8611C14.5999 10.5001 14.3807 10.172 14.1044 9.89565C13.828 9.6193 13.4999 9.40009 13.1389 9.25053C12.7778 9.10098 12.3908 9.024 12 9.024ZM23.916 6.084C23.9097 5.15731 23.739 4.23909 23.412 3.372C23.1711 2.73751 22.7985 2.16131 22.3186 1.68142C21.8387 1.20153 21.2625 0.828861 20.628 0.588C19.7609 0.260957 18.8427 0.0903131 17.916 0.0839999C16.368 -8.04663e-08 15.912 0 12 0C8.088 0 7.632 -8.04663e-08 6.084 0.0839999C5.15731 0.0903131 4.23909 0.260957 3.372 0.588C2.73751 0.828861 2.16131 1.20153 1.68142 1.68142C1.20153 2.16131 0.828861 2.73751 0.588 3.372C0.260957 4.23909 0.0903131 5.15731 0.0839999 6.084C-8.04663e-08 7.632 0 8.088 0 12C0 15.912 -8.04663e-08 16.368 0.0839999 17.916C0.0969167 18.846 0.267329 19.767 0.588 20.64C0.827794 21.2716 1.20015 21.8444 1.68 22.32C2.15783 22.8028 2.73527 23.1754 3.372 23.412C4.23909 23.739 5.15731 23.9097 6.084 23.916C7.632 24 8.088 24 12 24C15.912 24 16.368 24 17.916 23.916C18.8427 23.9097 19.7609 23.739 20.628 23.412C21.2647 23.1754 21.8422 22.8028 22.32 22.32C22.7998 21.8444 23.1722 21.2716 23.412 20.64C23.7387 19.7687 23.9093 18.8466 23.916 17.916C24 16.368 24 15.912 24 12C24 8.088 24 7.632 23.916 6.084ZM20.868 15.684C20.8295 16.4245 20.6714 17.1539 20.4 17.844C20.167 18.4196 19.8207 18.9425 19.3816 19.3816C18.9425 19.8207 18.4196 20.167 17.844 20.4C17.1474 20.6563 16.4139 20.7981 15.672 20.82C14.724 20.82 14.472 20.82 12 20.82C9.528 20.82 9.276 20.82 8.328 20.82C7.58608 20.7981 6.85259 20.6563 6.156 20.4C5.56092 20.1789 5.02353 19.8261 4.584 19.368C4.1492 18.9375 3.81341 18.4174 3.6 17.844C3.34267 17.1481 3.20473 16.4138 3.192 15.672C3.192 14.724 3.192 14.472 3.192 12C3.192 9.528 3.192 9.276 3.192 8.328C3.20473 7.58619 3.34267 6.85186 3.6 6.156C3.82114 5.56092 4.17393 5.02353 4.632 4.584C5.0644 4.15155 5.58392 3.81611 6.156 3.6C6.85259 3.34369 7.58608 3.20185 8.328 3.18C9.276 3.18 9.528 3.18 12 3.18C14.472 3.18 14.724 3.18 15.672 3.18C16.4139 3.20185 17.1474 3.34369 17.844 3.6C18.4391 3.82114 18.9765 4.17393 19.416 4.632C19.8508 5.0625 20.1866 5.58256 20.4 6.156C20.6563 6.85259 20.7981 7.58608 20.82 8.328C20.82 9.276 20.82 9.528 20.82 12C20.82 14.472 20.904 14.724 20.868 15.672V15.684ZM18.948 6.756C18.8051 6.36838 18.5799 6.01637 18.2877 5.72426C17.9956 5.43214 17.6436 5.20688 17.256 5.064C16.7238 4.87951 16.1632 4.79015 15.6 4.8C14.664 4.8 14.4 4.8 12 4.8C9.6 4.8 9.336 4.8 8.4 4.8C7.83392 4.80553 7.27328 4.91116 6.744 5.112C6.36232 5.24839 6.01403 5.46446 5.7223 5.74584C5.43057 6.02723 5.20207 6.36749 5.052 6.744C4.87773 7.27844 4.79259 7.83791 4.8 8.4C4.8 9.336 4.8 9.6 4.8 12C4.8 14.4 4.8 14.664 4.8 15.6C4.8119 16.1654 4.91732 16.725 5.112 17.256C5.25488 17.6436 5.48014 17.9956 5.77226 18.2877C6.06437 18.5799 6.41638 18.8051 6.804 18.948C7.316 19.1363 7.85478 19.2416 8.4 19.26C9.336 19.26 9.6 19.26 12 19.26C14.4 19.26 14.664 19.26 15.6 19.26C16.1661 19.2545 16.7267 19.1488 17.256 18.948C17.6436 18.8051 17.9956 18.5799 18.2877 18.2877C18.5799 17.9956 18.8051 17.6436 18.948 17.256C19.1488 16.7267 19.2545 16.1661 19.26 15.6C19.26 14.664 19.26 14.4 19.26 12C19.26 9.6 19.26 9.336 19.26 8.4C19.2603 7.83336 19.1545 7.27167 18.948 6.744V6.756ZM12 16.584C11.3986 16.584 10.8031 16.4653 10.2476 16.2348C9.69211 16.0043 9.18756 15.6665 8.76286 15.2407C8.33815 14.8148 8.00163 14.3094 7.77257 13.7533C7.54352 13.1972 7.42642 12.6014 7.428 12C7.428 11.0929 7.69716 10.2061 8.20138 9.45202C8.70561 8.69793 9.42225 8.1104 10.2606 7.7638C11.0989 7.4172 12.0212 7.32713 12.9107 7.50498C13.8003 7.68283 14.617 8.1206 15.2576 8.76289C15.8982 9.40517 16.3339 10.2231 16.5094 11.1131C16.6849 12.0031 16.5924 12.9251 16.2436 13.7626C15.8948 14.6 15.3054 15.315 14.55 15.8173C13.7946 16.3195 12.9071 16.5864 12 16.584ZM16.8 8.316C16.5347 8.28792 16.2892 8.16267 16.1108 7.96437C15.9324 7.76606 15.8337 7.50875 15.8337 7.242C15.8337 6.97525 15.9324 6.71794 16.1108 6.51964C16.2892 6.32134 16.5347 6.19608 16.8 6.168C17.0653 6.19608 17.3108 6.32134 17.4892 6.51964C17.6676 6.71794 17.7663 6.97525 17.7663 7.242C17.7663 7.50875 17.6676 7.76606 17.4892 7.96437C17.3108 8.16267 17.0653 8.28792 16.8 8.316Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Payment Icons -->
+                        <div class="col-lg-3 text-lg-end Payment">
+                            <div class="payment-icons mt-4 mt-lg-0">
+                                <img src="./assets/images/payment.webp" alt="Amex">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom Bar -->
+                <div class="footer-bottom text-center text-md-start">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            © 2025, Traped Out Apparel
+                        </div>
+                        <div class="col-md-8 text-md-end">
+                            <div class="footer-bottom-links">
+                                <a href="#">Faqs</a> |
+                                <a href="#">Refund policy</a> |
+                                <a href="#">Privacy policy</a> |
+                                <a href="#">Terms of service</a> |
+                                <a href="#">Shipping policy</a> |
+                                <a href="./contact.html">Contact information</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-text-wrapper h-25 overflow-hidden">
+                <h1 class="footerBottomHeading text-center">Traped Out</h1>
+            </div>
+        </footer>
+        <!-- Footer Section End   -->
+        <script src="./assets/js/bootstrap-min.js"></script>
+        <script src="./assets/js/swiper.js"></script>
+        <script src="./assets/js/script.js"></script>
+    </main>
+</body>
+
+</html>

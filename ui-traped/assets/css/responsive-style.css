@@ -1,0 +1,1087 @@
+/* ##############################  Before 1440px  ##################### */
+@media (min-width:1438px) {
+
+    /* 22/12/2025 */
+    /* ##############################   Recommended for Traped Out Army  Start  ##################### */
+    .shop-all .product-card,
+    .single-product-wrapper .product-card {
+        flex-wrap: wrap !important;
+    }
+
+    .shop-all .product-card .product,
+    .single-product-wrapper .product-card .product {
+        width: 32% !important;
+    }
+
+    /* shop all product page */
+    main.shop-all .why-choose-card {
+        transform: translateY(-200px);
+    }
+
+    /* ##############################   Recommended for Traped Out Army  End  ##################### */
+}
+
+/* ##############################  After 1440px  ##################### */
+@media (max-width:1439px) {
+    body {
+        overflow-x: hidden !important;
+        width: 100% !important;
+    }
+
+    /* global classes start */
+    /* global classes end */
+    .trap-hero .hero-wrapper .content h1 {
+        font-size: 97px;
+        line-height: 100px;
+    }
+
+    .trap-hero .hero-wrapper .content p {
+        font-size: 20px;
+        margin: 10px 0px 25px 0px !important;
+    }
+
+    .trap-btn {
+        padding: 15px 30px;
+    }
+
+    a.trap-btn:before {
+        width: 50px;
+        height: 50px;
+        right: -75px;
+    }
+
+    section.trap-feature-product .container .content h2 {
+        font-size: 95px;
+    }
+
+    /* ##  GRADIENT Heading Section Start  ## */
+    section.gradient-heading .container h1 {
+        font-size: 350px;
+    }
+
+    /* ##  Streetwear Section Start  ## */
+    section.streetwear-section h1 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    section.streetwear-section .content {
+        padding: 40px 30px !important;
+    }
+
+    section.streetwear-section .content p {
+        font-size: 14px;
+    }
+
+    section.streetwear-section .image {
+        height: 100% !important;
+    }
+
+    .streetwear-section .image img {
+        height: 600px !important;
+    }
+
+    /* ##  what slider Section Start  ## */
+    .what-slider .container h2 {
+        font-size: 65px;
+        width: 50%;
+        line-height: 70px;
+    }
+
+    .what-slider .trap-slider-wrapper {
+        gap: 2px !important;
+    }
+
+    .what-slider .whatQuots {
+        width: 50px;
+        height: 50px;
+    }
+
+    .what-slider .swiper-slide {
+        font-size: 20px;
+        padding: 20px 0px 10px 20px;
+    }
+
+    .what-slider .swiper-slide h3 {
+        margin: 0;
+        font-size: 45px;
+    }
+
+    .what-slider .swiper-slide p {
+        font-size: 16px;
+        padding: 0 !important;
+    }
+
+    .what-slider .swiper-slide svg {
+        width: 100px;
+        height: unset;
+        margin: 10px 0px;
+    }
+
+    .what-slider .btngrp {
+        margin-top: 20px !important;
+    }
+
+    .what-slider .swiper-button-next,
+    .what-slider .swiper-button-prev {
+        height: 60px;
+        width: 60px;
+        padding: 16px;
+    }
+
+    /* ##  why choose card Section  ## */
+    section.why-choose-card .why-card {
+        padding: 30px 22px 30px 20px;
+        min-height: 340px;
+    }
+
+    section.why-choose-card .why-card svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    section.why-choose-card .why-card .content h3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    section.why-choose-card .why-card .content p {
+        line-height: 15px;
+        font-size: 14px;
+    }
+
+    section.why-choose-card h2 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    /* ##  Trap Customer slider Section start  ## */
+    .trap-customer-love .swiper-slide {
+        padding: 10px 10px 20px 10px;
+
+    }
+
+    .trap-customer-love .swiper-slide img {
+        height: 65%;
+    }
+
+    .trap-customer-love .swiper-slide .content h2 {
+        font-size: 25px;
+    }
+
+    .swiper.customerlove:after,
+    .swiper.customerlove:before {
+        width: 100px;
+    }
+
+    /* footer */
+    .footerBottomHeading {
+        font-size: 300px;
+    }
+
+    .social-icons a {
+        width: 45px;
+        height: 45px;
+    }
+
+    .payment-icons img {
+        height: 45px;
+        margin-left: -160px;
+    }
+
+    /* cta footer */
+    .ctaFootertop h2 {
+        line-height: 80px;
+        font-size: 80px;
+    }
+
+    .ctaFootertop p {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+
+    /* shop all product page */
+    main.shop-all .why-choose-card {
+        transform: translateY(-200px);
+    }
+
+    /* about banner */
+    .about-hero .ex-wrapper .about-hero-wrapper .about-hero-content h1 {
+        font-size: 85px;
+        line-height: 76px;
+    }
+
+    .about-hero .ex-wrapper .about-hero-wrapper .about-hero-content p {
+        font-size: 15px;
+    }
+}
+
+/* ##############################  After 1024px  ##################### */
+@media (max-width:1023px) {
+    .trap-hero {
+        margin: 0px 10px 10px 10px !important;
+    }
+
+    .trap-hero .hero-wrapper .content h1 {
+        font-size: 70px;
+        line-height: 65px;
+    }
+
+    .trap-hero .hero-wrapper .content p {
+        font-size: 15px;
+        margin: 10px 0px 20px 0px !important;
+    }
+
+    .trap-btn {
+        padding: 12px 25px;
+    }
+
+    a.trap-btn:before {
+        width: 40px;
+        height: 40px;
+        right: -65px;
+    }
+
+    /* sami contact page */
+
+    .get-touch-title {
+        font-size: 60px;
+    }
+
+
+    /* collection */
+    .trap-collection-wrapper {
+        margin: 0px 10px !important;
+
+    }
+
+    .trap-collection-box h2 {
+        font-size: 45px;
+    }
+
+    /* feature product */
+    section.trap-feature-product .container .content h2 {
+        font-size: 85px;
+    }
+
+    section.trap-feature-product .container .content p {
+        font-size: 14px;
+    }
+
+    /* ##  GRADIENT Heading Section Start  ## */
+    section.gradient-heading .container h1 {
+        font-size: 260px;
+    }
+
+    /* ##  Streetwear Section Start  ## */
+    section.streetwear-section {
+        margin-bottom: 100px !important;
+        transform: translateY(0px);
+    }
+
+    section.streetwear-section h1 {
+        font-size: 57px;
+        line-height: 60px;
+    }
+
+    section.streetwear-section .content {
+        padding: 40px 30px !important;
+    }
+
+    section.streetwear-section .content p {
+        font-size: 14px;
+    }
+
+    .streetwear-section .image img {
+        height: 630px !important;
+    }
+
+    /* ##  Streetwear Section Start  ## */
+    .what-slider .container h2 {
+        font-size: 50px;
+        width: 70%;
+        line-height: 57px;
+    }
+
+    section.why-choose-card .why-card {
+        width: 48%;
+    }
+
+    /* ##  Trap Customer slider Section start  ## */
+    .trap-customer-love .section-heading,
+    .recommendedarmy .section-heading {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .trap-customer-love .swiper-slide img {
+        height: 60%;
+    }
+
+    .trap-customer-love .swiper-slide .content {
+        padding: 0 !important;
+    }
+
+    .trap-customer-love .swiper-slide .content h2 {
+        font-size: 20px;
+    }
+
+    .trap-customer-love .swiper-slide .content p {
+        font-size: 14px;
+        margin-bottom: 2px !important;
+    }
+
+    /* FOOTER */
+    .footerBottomHeading {
+        font-size: 230px;
+    }
+
+    .payment-icons img {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .social-container .w-50 {
+        width: 100% !important;
+    }
+
+    .footer-bottom-links a {
+        margin: 0 20px;
+    }
+
+    /* Cta Footer */
+    .ctaFootertop h2 {
+        line-height: 60px;
+        font-size: 55px;
+    }
+
+    .ctaFootertop p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    /* about banner */
+    .about-hero .ex-wrapper .about-hero-wrapper .about-hero-content h1 {
+        font-size: 100px;
+        line-height: 90px;
+    }
+
+    .about-hero .ex-wrapper .about-hero-wrapper .about-hero-content p {
+        width: 100% !important;
+        font-size: 16px;
+    }
+}
+
+/* ##############################  After 769px  ##################### */
+@media (max-width:768px) {
+
+    a.trap-btn:hover.trap-btn::before {
+        right: -75px;
+    }
+
+    /* global classes end */
+
+    .trap-hero {
+        overflow: hidden;
+    }
+
+    .trap-hero .hero-wrapper .content h1 {
+        font-size: 54px;
+        line-height: 60px;
+    }
+
+    .trap-hero .hero-wrapper .content p {
+        font-size: 14px;
+        margin: 10px 0px 20px 0px !important;
+    }
+
+    .trap-btn {
+        padding: 10px 20px;
+    }
+
+    a.trap-btn:before {
+        width: 35px;
+        height: 35px;
+        right: -53px;
+    }
+
+    a.trap-btn:hover.trap-btn::before {
+        right: -63px;
+    }
+
+
+    .trap-collection-box {
+        padding: 0px 0px 30px 30px;
+    }
+
+    /* collection */
+    .trap-collection-box {
+        padding: 0px 0px 30px 30px;
+        height: 50%;
+        background-position: top !important;
+    }
+
+    /* feature product */
+    section.trap-feature-product .container .content h2 {
+        font-size: 85px;
+        line-height: 80px;
+    }
+
+    section.trap-feature-product .product-card {
+        margin-top: 25px;
+    }
+
+    /* ##  GRADIENT Heading Section Start  ## */
+    section.gradient-heading .container h1 {
+        font-size: 190px;
+    }
+
+    /* ##  Streetwear Section Start  ## */
+    .home section.streetwear-section {
+        margin-bottom: 100px !important;
+        transform: translateY(0px);
+    }
+
+    section.streetwear-section h1 {
+        font-size: 80px;
+        line-height: 85px;
+        width: 100% !important;
+    }
+
+    .streetwear-section .image {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    /* ##  Streetwear Section Start  ## */
+    .trap-slider-wrapper {
+        width: 100% !important;
+    }
+
+    .what-slider .container h2 {
+        font-size: 50px;
+        width: 70%;
+        line-height: 57px;
+    }
+
+    .what-slider .swiper {
+        width: 100%;
+    }
+
+    .what-slider .container h2 {
+        font-size: 70px;
+        width: 100%;
+        line-height: 65px;
+        margin-bottom: 20px;
+    }
+
+    .what-slider .swiper-slide {
+        font-size: 20px;
+        padding: 20px 20px 10px 20px;
+    }
+
+    section.why-choose-card .why-card {
+        width: 100%;
+    }
+
+    section.why-choose-card h2 {
+        margin-bottom: 30px;
+    }
+
+    /* ##  Trap Customer slider Section start  ## */
+    .trap-customer-love .swiper-slide img {
+        height: 70%;
+    }
+
+    .trap-customer-love .swiper-slide {
+        justify-content: space-between;
+        padding: 10px 10px 40px 10px;
+    }
+
+    .swiper.customerlove:after,
+    .swiper.customerlove:before {
+        width: 75px;
+    }
+
+    .payment-icons img {
+        margin-left: -230px !important;
+    }
+
+    .footerBottomHeading {
+        font-size: 165px;
+    }
+
+    .footer-bottom-links .col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom-links a {
+        margin: 0 1px;
+        font-size: 18px;
+    }
+
+    .footer-text-wrapper {
+        margin-top: 20px;
+    }
+
+    /* single product page */
+    .single-product-wrapper .product-page {
+        overflow-x: hidden !important;
+    }
+
+    .single-product-wrapper .product-title {
+        font-size: 70px;
+    }
+
+    .trap-primary {
+        width: 50%;
+    }
+
+    /* Sami contact page css */
+
+    .col-md-6.col-lg-6.information {
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    .get-touch-title {
+        font-size: 60px;
+        font-weight: 900;
+    }
+
+    .col-md-6.col-lg-6.formcontact {
+        width: 100%;
+    }
+
+    .contact-section p {
+        font-size: 14px;
+    }
+
+    .container.text-center.shidding {
+        margin-bottom: -10px;
+    }
+
+    /* shop all page */
+    .shop-all .collection-hero-content {
+        width: 100% !important;
+    }
+
+    .shop-all .filters-container {
+        gap: 0 !important;
+    }
+
+    .shop-all .price-range-group {
+        min-width: auto;
+        font-size: 14px;
+        gap: 5px;
+
+    }
+
+    .shop-all .form-select {
+        font-size: 14px !important;
+    }
+
+    .shop-all .sort-group {
+        margin-left: 0;
+        align-self: flex-start;
+    }
+
+    .shop-all .filter-group {
+        justify-content: flex-start !important;
+        gap: 0 !important;
+        font-size: 14px;
+    }
+
+    .shop-all .filter-group.sort-group {
+        flex: 0;
+    }
+
+    main.shop-all .why-choose-card {
+        transform: translateY(0);
+    }
+
+    /* hero repetable banner text  */
+    .collection-hero .ex-wrapper .collection-hero-wrapper .collection-hero-content h1 {
+        font-size: 72px;
+        line-height: 70px;
+    }
+
+    main.shop-all .ex-wrapper .collection-hero-content p {
+        font-size: 16px !important;
+    }
+
+    /* hero repetable banner text  */
+    section.trap-feature-product .product-card .product .info:before {
+        top: 87%;
+        right: 20px;
+    }
+
+    /* about banner hero */
+    .about-hero-content.ps-5 {
+        padding: 0 !important;
+    }
+
+    .about-hero .ex-wrapper .about-hero-wrapper .about-hero-content h1 {
+        font-size: 85px;
+        line-height: 85px;
+    }
+
+    .collection-hero,
+    .about-hero {
+        margin: 0px 10px 20px 10px !important;
+    }
+}
+
+/* ##############################  After 577px  ##################### */
+@media (max-width: 577px) {
+
+    /* header */
+    .trap-nav .navbar-brand img {
+        width: 100px;
+        height: 50px;
+    }
+
+    a.trap-btn:before {
+        right: -55px;
+
+    }
+
+    /* global classes end */
+
+    .trap-hero {
+        border-radius: 25px;
+        overflow: hidden;
+    }
+
+    .hero-wrapper {
+        align-items: start !important;
+        padding-top: 25px;
+    }
+
+    .trap-hero .hero-wrapper .content {
+        width: 100% !important;
+    }
+
+    .trap-hero .hero-wrapper .content h1 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .trap-hero .hero-wrapper .content p {
+        font-size: 14px;
+        margin: 10px 0px 20px 0px !important;
+    }
+
+    .trap-hero .image {
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80% !important;
+    }
+
+    /* feature product */
+    section.trap-feature-product .container .content h2 {
+        font-size: 70px;
+    }
+
+    section.trap-feature-product .product-card .product {
+        padding: 0px 10px;
+    }
+
+    /* ##  GRADIENT Heading Section Start  ## */
+    section.gradient-heading {
+        margin: 50px 0px;
+    }
+
+    section.gradient-heading .container h1 {
+        font-size: 110px;
+        line-height: 130px;
+        background: linear-gradient(to bottom, var(--color-text-dark) -200%, #fff0 100%) !important;
+        -webkit-background-clip: text !important;
+        color: transparent;
+    }
+
+    /* ##  Streetwear Section Start  ## */
+    section.streetwear-section h1 {
+        font-size: 65px;
+        line-height: 60px;
+    }
+
+    section.streetwear-section .content {
+        padding: 30px 20px !important;
+    }
+
+    section.streetwear-section .content p {
+        font-size: 13px;
+    }
+
+    section.streetwear-section .row {
+        padding: 10px;
+    }
+
+    .streetwear-section .image img {
+        height: 200px !important;
+        width: 100% !important;
+    }
+
+    /* ##  Streetwear Section Start  ## */
+    .what-slider .container h2 {
+        font-size: 55px;
+    }
+
+    .what-slider .trap-slider-wrapper {
+        padding: 0 3px;
+    }
+
+    .what-slider .swiper-slide p {
+        font-size: 14px;
+    }
+
+    .what-slider .swiper-slide h3 {
+        font-size: 35px;
+    }
+
+    section.why-choose-card h2 {
+        font-size: 65px;
+
+        line-height: 60px;
+    }
+
+    .why-choose-card .row {
+        margin: 0 !important;
+    }
+
+    /* ##  Trap Customer slider Section start  ## */
+    .bundle-heading,
+    .trap-customer-love .section-heading,
+    .recommendedarmy .section-heading {
+        font-size: 60px;
+        line-height: 55px;
+    }
+
+    .trap-customer-love .swiper-slide img {
+        height: 70%;
+        object-fit: fill;
+    }
+
+    .swiper.customerlove:after,
+    .swiper.customerlove:before {
+        width: 0px;
+    }
+
+    .payment-icons img {
+        height: 28px;
+        margin-left: 0px !important;
+    }
+
+    .footerBottomHeading {
+        font-size: 95px;
+        padding-top: 14px;
+    }
+
+    .footer-bottom-links a {
+        margin: 0 6px;
+        font-size: 14px;
+    }
+
+    .cart-ondex {
+        display: none;
+    }
+
+    .cart-Icon-on-mobile {
+        display: flex;
+    }
+
+    /* cta footer  */
+    .ctaFootertop .w-50 {
+        width: 100% !important;
+    }
+
+
+    /* single product page */
+    .single-product-wrapper .product-page {
+        padding: 40px 10px;
+    }
+
+    .single-product-wrapper .product-title {
+        font-size: 50px;
+    }
+
+    .single-product-wrapper .product-price {
+        font-size: 40px;
+    }
+
+    .trap-primary {
+        width: 75% !important;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .trap-primary:before {
+        right: -70px !important;
+        width: 45px !important;
+        height: 45px !important;
+    }
+
+    .single-product-wrapper .accordion-button {
+        font-size: 30px;
+    }
+
+    .single-product-wrapper .trust-badges h2 {
+        font-size: 16px;
+    }
+
+    .single-product-wrapper .trust-badge img {
+        width: 50px;
+    }
+
+    .single-product-wrapper .trust-badge {
+        justify-content: flex-end;
+    }
+
+    .single-product-wrapper .quantity-selector {
+        gap: 5px;
+        margin: 10px 0;
+    }
+
+    .single-product-wrapper .sizeGuid {
+        font-size: 12px;
+    }
+
+    .single-product-wrapper .quantity-selector strong {
+        font-size: 14px;
+    }
+
+    .single-product-wrapper .thumbnail-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(55px, 1fr));
+        gap: 10px;
+    }
+
+    .bundle-images {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .bundle-img-wrapper {
+        width: 100%;
+        height: 270px;
+    }
+
+    .bundle-item select {
+        position: relative;
+        left: 10px;
+    }
+
+    .bundle-details {
+        padding: 20px 10px;
+    }
+
+    .bundle-discount,
+    .bundle-total {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .bundle-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+
+    }
+
+    .bundle-item-price {
+        margin: 0;
+    }
+
+    .bundle-section .bundle-item-name {
+        flex-direction: column;
+    }
+
+
+    /* sami contact css */
+    .get-touch-title {
+        font-size: 35px;
+        letter-spacing: 0px;
+    }
+
+    .facebook {
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+
+    .instagram {
+        padding: 15px 15px;
+    }
+
+    .contact-section {
+
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .contact-section p {
+        font-size: 16px;
+    }
+
+    .customer-support {
+        margin-top: 60px;
+    }
+
+    .contact-h1 {
+        font-size: 35px;
+    }
+
+    .submit-btn {
+        padding: 5px 70px;
+    }
+
+    .container.text-center.shidding {
+        margin-bottom: -10px;
+    }
+
+    h4.collection-title {
+        font-size: 40px;
+    }
+
+    .container.text-center.shidding {
+        margin-bottom: -10px;
+    }
+
+    h4.collection-title {
+        font-size: 40px;
+    }
+
+    .bundle-item select {
+        position: relative;
+        left: 14px;
+    }
+
+    .bundle-img-wrapper {
+        width: 100%;
+        height: fit-content;
+        border-radius: 16px;
+    }
+
+    /* about banner  */
+    .about-hero .ex-wrapper .about-hero-wrapper .about-hero-content p {
+        line-height: 16px;
+        font-size: 14px;
+        margin-top: 10px !important;
+    }
+
+    .about-hero .ex-wrapper .about-hero-wrapper .about-hero-content h1 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+}
+
+/* ################## (About Page Responsive) - Why Mission / Vision End - Sufiyan  ############### ### */
+
+@media (max-width:1023px) {
+    .about section.streetwear-section .content {
+        margin-top: 20px;
+    }
+
+    .about .why-choose-card {
+        transform: translateY(-120px);
+    }
+
+    .mission-content,
+    .vision-content {
+        padding: 30px;
+    }
+
+
+    /* Blogs page Responsive  */
+    .featured-card.row.gap-5.flex-lg-nowrap.rounded-5.p-3 {
+        padding-bottom: 50px !important;
+    }
+
+}
+
+
+@media (max-width:768px) {
+
+    .about .why-choose-card {
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width: 577px) {
+
+
+    .about .why-choose-card {
+        transform: translateY(0px);
+    }
+
+    .about .why-choose-card .content h2 {
+        font-size: 75px !important;
+        line-height: 1.2;
+    }
+
+    section.mission-vision {
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .mission-content,
+    .vision-content {
+        padding: 20px;
+    }
+
+
+    /* ################## (Reviews Page Responsive) - Card Section - Sufiyan  ############### ### */
+
+
+    .review-cards {
+        padding: 20px;
+    }
+
+    /* ################## (Blogs Page Responsive) - Card Section - Sufiyan  ############### ### */
+
+    .featured-content h1 {
+        width: 100%;
+        font-size: 46px;
+    }
+
+    .blog-card h3 {
+        font-size: 34px;
+    }
+
+
+    .about .why-choose-card {
+        transform: translateY(0px);
+    }
+
+    .about .why-choose-card .content h2 {
+        font-size: 75px !important;
+        line-height: 1.2;
+    }
+
+    section.mission-vision {
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    /* ################## (blog Inner Page Responsive) - Sufiyan  ############### ### */
+
+    .blog-details {
+        flex-direction: column;
+    }
+
+    .about-hero .ex-wrapper .about-hero-wrapper .about-hero-content p {
+        line-height: 16px;
+        font-size: 15px;
+    }
+
+    .mission-content,
+    .vision-content {
+        padding: 20px;
+    }
+
+}
