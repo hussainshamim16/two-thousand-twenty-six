@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Editor\'s Note';
+    src: url('EditorsNote-Medium.woff2') format('woff2'),
+        url('EditorsNote-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Editor\'s Note';
+    src: url('EditorsNote-BoldItalic.woff2') format('woff2'),
+        url('EditorsNote-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Editor\'s Note';
+    src: url('EditorsNote-Regular.woff2') format('woff2'),
+        url('EditorsNote-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

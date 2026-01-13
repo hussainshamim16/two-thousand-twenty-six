@@ -1,0 +1,163 @@
+/* ############################## Font's start ##################### */
+/* Fonts For Heading */
+@font-face {
+    font-family: 'plus-jakarta-sans';
+    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+        url('./fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'plus-jakarta-sans';
+    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff2') format('woff2'),
+        url('./fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'plus-jakarta-sans';
+    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff2') format('woff2'),
+        url('./fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'plus-jakarta-sans';
+    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff2') format('woff2'),
+        url('./fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'plus-jakarta-sans';
+    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff2') format('woff2'),
+        url('./fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'plus-jakarta-sans';
+    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff2') format('woff2'),
+        url('./fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'plus-jakarta-sans';
+    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff2') format('woff2'),
+        url('./fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+/* Fonts For Numbers */
+@font-face {
+    font-family: 'editor-note';
+    src: url('./fonts/editors-note/EditorsNote-Medium.woff2') format('woff2'),
+        url('./fonts/editors-note/EditorsNote-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ############################## global classes start ##################### */
+:root {
+    /* Typography tokens from Figma */
+    --body-font: "plus-jakarta-sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+    /* Brand  ver*/
+    --brand-primary: #14357A;  /* Navy-based trust color (good for pressure washing) */
+    --brand-accent: #FC621A; /* Orange (contrast punch) */
+
+    /* brand support */
+    --support-red: #A53906;
+    --support-sky: #19ABC8;
+    --support-blue: #26419C;
+
+    /* Brand Utility  colors*/
+    --text-primary: #1B2A41;
+    --text-scondery: #4C6C87;
+    --neutral-white: #FFFFFF;
+    --tag-green: #19AAC73B;
+    --drag-blue: #19AAC7;
+    --shadow-cyan: #1AACCA;
+
+    /* global  ver*/
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-text-dark: #1F1F1F;
+    --color-grey: #D9D9D9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+    color: var(--text-primary);
+}
+
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+    color: var(--color-brand-primary);
+}
+
+h2 {
+    font-size: 70px;
+    line-height: 80px;
+}
+
+p {
+    font-size: 18px;
+    color: var(--text-scondery);
+}
+
+main {
+    padding: 0px;
+    margin: 0px;
+}
+
+.camo-margin-top {
+    margin-top: 100px;
+}
+
+a {
+    color: var(--text-primary);
+    text-transform: capitalize;
+}
+
+a:active{
+    color: var(--brand-accent);
+}
+
+.num{
+    font-family: 'editor-note' !important;
+}
