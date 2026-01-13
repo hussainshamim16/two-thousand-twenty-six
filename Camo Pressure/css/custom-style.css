@@ -222,8 +222,58 @@ a:active {
 }
 
 .back-top {
-    background: radial-gradient(circle at center,
-            rgba(255, 255, 255, 0.2) 0%,
-            rgba(255, 255, 255, 0.05) 100%);
+    background: linear-gradient(90deg, #35597a, #35516b);
+         
 
+}
+
+
+
+/* ----------------------------------------------------------------------HOME------------------------------ */
+.hero-section {
+    min-height: 90vh;
+}
+
+.hero-img {
+    z-index: 1;
+}
+
+
+.btn-estimate {
+    background: var(--brand-primary);
+    color: white;
+    padding: 10px 10px 10px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-estimate .arrow-icon {
+    background: white;
+    color: var(--brand-primary);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.roof-card {
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+    width: 200px;
+    background: white;
+    border-radius: 20px;
+    padding: 8px;
+    z-index: 10;
+}
+
+.opacity-90 { opacity: 0.9; }
+
+@media (max-width: 991px) {
+    .hero-section { text-align: center; padding-top: 100px; }
+    .btn-estimate { margin: 0 auto; }
 }
