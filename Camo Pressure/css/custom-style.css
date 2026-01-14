@@ -454,17 +454,18 @@ a:active {
     display: flex;
     flex-shrink: 0;
     min-width: 100%;
-    animation: scroll-left 10s linear infinite;
+    animation: scroll-left 5s linear infinite;
+    width: max-content;
 }
 
 
 @keyframes scroll-left {
     from {
-        transform: translateX(100%);
+        transform: translateX(0%);
     }
 
     to {
-        transform: translateX(-10%);
+        transform: translateX(-50%);
     }
 }
 
