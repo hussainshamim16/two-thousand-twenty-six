@@ -394,16 +394,18 @@ a:active {
 
 
 /* --------------------------------------------------------------------USMAN SECTION 7 ARTICLES------------------------------- */
-.article{
+.article {
     background-color: #14357A;
 }
-.art{
+
+.art {
     background-color: #19AAC73B;
     color: #19AAC7;
-    
+
 }
-.art-h4{
-   color: #1B2A41;
+
+.art-h4 {
+    color: #1B2A41;
 }
 
 .camo-btn-dark {
@@ -419,19 +421,67 @@ a:active {
     fill: var(--color-black);
 }
 
-.articon{
+.articon {
     background-color: #143578;
-   
+
 }
+
 .arrow-white {
     filter: brightness(0) invert(1);
 }
 
 
 
-/* -------------------------------------------------------------------------USMAN SECTION 3------------------------- */
+/* -------------------------------------------------------------------------USMAN SECTION 3 TAGLINE ------------------------- */
 
-    .gp{
-        color: linear-gradient(90deg, #19AAC8 50%, #FFFFFF);
-        font-size: 100px;
+
+
+
+
+.marquee-section {
+    overflow: hidden;
+    background-color: transparent;
+    width: 100%;
+}
+
+.marquee-container {
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+}
+
+.marquee-content {
+    display: flex;
+    flex-shrink: 0;
+    min-width: 100%;
+    animation: scroll-left 10s linear infinite;
+}
+
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(100%);
     }
+
+    to {
+        transform: translateX(-10%);
+    }
+}
+
+
+.combo-text {
+    color: #BDEBF3;
+    letter-spacing: -2px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.bubble-img {
+    width: clamp(80px, 12vw, 160px);
+    height: auto;
+}
+
+
+.marquee-container:hover .marquee-content {
+    animation-play-state: paused;
+}
