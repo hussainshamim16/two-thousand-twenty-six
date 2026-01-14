@@ -2,8 +2,8 @@
 /* Fonts For Heading */
 @font-face {
     font-family: 'plus-jakarta-sans';
-    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
-        url('./fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff') format('woff');
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+        url('../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -11,8 +11,8 @@
 
 @font-face {
     font-family: 'plus-jakarta-sans';
-    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff2') format('woff2'),
-        url('./fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff') format('woff');
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff2') format('woff2'),
+        url('../fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -20,8 +20,8 @@
 
 @font-face {
     font-family: 'plus-jakarta-sans';
-    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff2') format('woff2'),
-        url('./fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff') format('woff');
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -29,8 +29,8 @@
 
 @font-face {
     font-family: 'plus-jakarta-sans';
-    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff2') format('woff2'),
-        url('./fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff') format('woff');
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff2') format('woff2'),
+        url('../fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -38,8 +38,8 @@
 
 @font-face {
     font-family: 'plus-jakarta-sans';
-    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff2') format('woff2'),
-        url('./fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff') format('woff');
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff2') format('woff2'),
+        url('../fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -47,8 +47,8 @@
 
 @font-face {
     font-family: 'plus-jakarta-sans';
-    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff2') format('woff2'),
-        url('./fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff') format('woff');
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff2') format('woff2'),
+        url('../fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -56,17 +56,18 @@
 
 @font-face {
     font-family: 'plus-jakarta-sans';
-    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff2') format('woff2'),
-        url('./fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff') format('woff');
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff2') format('woff2'),
+        url('../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
+
 /* Fonts For Numbers */
 @font-face {
     font-family: 'editor-note';
-    src: url('./fonts/editors-note/EditorsNote-Medium.woff2') format('woff2'),
-        url('./fonts/editors-note/EditorsNote-Medium.woff') format('woff');
+    src: url('../fonts/editors-note/EditorsNote-Medium.woff2') format('woff2'),
+        url('../fonts/editors-note/EditorsNote-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -78,8 +79,10 @@
     --body-font: "plus-jakarta-sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
     /* Brand  ver*/
-    --brand-primary: #14357A;  /* Navy-based trust color (good for pressure washing) */
-    --brand-accent: #FC621A; /* Orange (contrast punch) */
+    --brand-primary: #14357A;
+    /* Navy-based trust color (good for pressure washing) */
+    --brand-accent: #FC621A;
+    /* Orange (contrast punch) */
 
     /* brand support */
     --support-red: #A53906;
@@ -131,8 +134,8 @@ h6 span {
 }
 
 h2 {
-    font-size: 70px;
-    line-height: 80px;
+    font-size: 5cap;
+    line-height: 60px;
 }
 
 p {
@@ -154,10 +157,236 @@ a {
     text-transform: capitalize;
 }
 
-a:active{
+a:active {
     color: var(--brand-accent);
 }
 
-.num{
+.num {
     font-family: 'editor-note' !important;
+}
+
+
+
+
+/* ----------------------------------------------------- USMAN NAVBAR------------------------------ */
+
+
+
+.navbar .navbar-nav .nav-link.active {
+    color: var(--brand-accent);
+}
+
+
+.btn-call {
+    background: linear-gradient(90deg, #ff6a00, #b34500);
+    color: var(--neutral-white);
+    font-weight: 600;
+}
+
+.arrow-icon {
+    background: var(--neutral-white);
+    color: var(--brand-accent);
+    font-size: 10px;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------- USMAN FOOTER----------------------------------- */
+
+
+/* Custom Social Icons Circle */
+.social-icon {
+    width: 38px;
+    height: 38px;
+    border: 2px solid var(--neutral-white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: var(--brand-accent);
+    border-color: var(--neutral-white);
+    transform: translateY(-3px);
+}
+
+
+.footer-link:hover {
+    color: var(--brand-accent) !important;
+    padding-left: 5px;
+}
+
+.back-top {
+    background: linear-gradient(90deg, #35597a, #35516b);
+
+
+}
+
+
+
+/* ----------------------------------------------------------------------USMNAN HOME------------------------------ */
+.hero-section {
+    min-height: 90vh;
+}
+
+.hero-img {
+    z-index: 1;
+}
+
+
+.btn-estimate {
+    background: var(--brand-primary);
+    color: white;
+    padding: 10px 10px 10px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-estimate .arrow-icon {
+    background: white;
+    color: var(--brand-primary);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.roof-card {
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+    width: 200px;
+    background: white;
+    border-radius: 20px;
+    padding: 8px;
+    z-index: 10;
+}
+
+.opacity-90 {
+    opacity: 0.9;
+}
+
+@media (max-width: 991px) {
+    .hero-section {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .btn-estimate {
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------------USMAN SECTION 5------------------------------------ */
+.camo-five {
+    background: url('../assets/sec5.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+}
+
+
+.side-line {
+    height: 2px;
+    width: 160px;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+
+
+
+/* ----------------------------------------------------------------------USMAN SECTION 6------------------------------ */
+
+
+.camo-six {
+    background: url('../assets/secsix.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+}
+
+
+
+
+.text-navy {
+    color: #1B2A41 !important;
+}
+
+.bg-orange {
+    background: linear-gradient(90deg, #FC621A, #A53906);
+}
+
+
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.six-h4 {
+    color: #1B2A41;
+}
+
+.six-p {
+    color: #4C6C87;
+}
+
+
+.camo-six-card {
+    transition: all .3s ease !important;
+}
+
+.camo-six-card:hover {
+    background-color: #14357A !important;
+    cursor: pointer;
+}
+
+.camo-six hr {
+    transition: all .3s ease !important;
+}
+
+.camo-six-card:hover h4 {
+    color: white;
+    cursor: pointer;
+}
+
+.camo-six-card p {
+    transition: all .3s ease !important;
+}
+
+.camo-six-card:hover p {
+    color: white;
+    cursor: pointer;
+}
+
+.camo-six-card .icon-circle {
+    transition: all .3s ease !important;
+}
+
+.camo-six-card:hover .icon-circle {
+    background: #536c9e !important;
+    cursor: pointer;
 }
