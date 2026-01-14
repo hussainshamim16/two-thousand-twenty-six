@@ -421,7 +421,17 @@ a:active {
 
 .articon{
     background-color: #143578;
+   
 }
-.articon svg path {
-    fill: var(--color-white);
+.arrow-white {
+    filter: brightness(0) invert(1);
 }
+
+
+
+/* -------------------------------------------------------------------------USMAN SECTION 3------------------------- */
+
+    .gp{
+        color: linear-gradient(90deg, #19AAC8 50%, #FFFFFF);
+        font-size: 100px;
+    }
