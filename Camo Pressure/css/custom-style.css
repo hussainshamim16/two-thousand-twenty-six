@@ -2,8 +2,8 @@
 /* Fonts For Heading */
 @font-face {
     font-family: 'plus-jakarta-sans';
-    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
-        url('./fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff') format('woff');
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+        url('../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -11,8 +11,8 @@
 
 @font-face {
     font-family: 'plus-jakarta-sans';
-    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff2') format('woff2'),
-        url('./fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff') format('woff');
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff2') format('woff2'),
+        url('../fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -20,8 +20,8 @@
 
 @font-face {
     font-family: 'plus-jakarta-sans';
-    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff2') format('woff2'),
-        url('./fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff') format('woff');
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -29,8 +29,8 @@
 
 @font-face {
     font-family: 'plus-jakarta-sans';
-    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff2') format('woff2'),
-        url('./fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff') format('woff');
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff2') format('woff2'),
+        url('../fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -38,8 +38,8 @@
 
 @font-face {
     font-family: 'plus-jakarta-sans';
-    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff2') format('woff2'),
-        url('./fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff') format('woff');
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff2') format('woff2'),
+        url('../fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -47,8 +47,8 @@
 
 @font-face {
     font-family: 'plus-jakarta-sans';
-    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff2') format('woff2'),
-        url('./fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff') format('woff');
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff2') format('woff2'),
+        url('../fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -56,8 +56,8 @@
 
 @font-face {
     font-family: 'plus-jakarta-sans';
-    src: url('./fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff2') format('woff2'),
-        url('./fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff') format('woff');
+    src: url('../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff2') format('woff2'),
+        url('../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -66,8 +66,8 @@
 /* Fonts For Numbers */
 @font-face {
     font-family: 'editor-note';
-    src: url('./fonts/editors-note/EditorsNote-Medium.woff2') format('woff2'),
-        url('./fonts/editors-note/EditorsNote-Medium.woff') format('woff');
+    src: url('../fonts/editors-note/EditorsNote-Medium.woff2') format('woff2'),
+        url('../fonts/editors-note/EditorsNote-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -134,8 +134,8 @@ h6 span {
 }
 
 h2 {
-    font-size: 70px;
-    line-height: 80px;
+    font-size: 5cap;
+    line-height: 60px;
 }
 
 p {
@@ -168,7 +168,7 @@ a:active {
 
 
 
-/* -----------------------------------------------------NAVBAR------------------------------ */
+/* ----------------------------------------------------- USMAN NAVBAR------------------------------ */
 
 
 
@@ -193,7 +193,7 @@ a:active {
 
 
 
-/* -----------------------------------------------------------------FOOTER----------------------------------- */
+/* ----------------------------------------------------------------- USMAN FOOTER----------------------------------- */
 
 
 /* Custom Social Icons Circle */
@@ -223,13 +223,13 @@ a:active {
 
 .back-top {
     background: linear-gradient(90deg, #35597a, #35516b);
-         
+
 
 }
 
 
 
-/* ----------------------------------------------------------------------HOME------------------------------ */
+/* ----------------------------------------------------------------------USMNAN HOME------------------------------ */
 .hero-section {
     min-height: 90vh;
 }
@@ -271,11 +271,19 @@ a:active {
     z-index: 10;
 }
 
-.opacity-90 { opacity: 0.9; }
+.opacity-90 {
+    opacity: 0.9;
+}
 
 @media (max-width: 991px) {
-    .hero-section { text-align: center; padding-top: 100px; }
-    .btn-estimate { margin: 0 auto; }
+    .hero-section {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .btn-estimate {
+        margin: 0 auto;
+    }
 }
 
 
@@ -285,11 +293,100 @@ a:active {
 
 
 
-
-.camo-five{
+/* -----------------------------------------------------------------------USMAN SECTION 5------------------------------------ */
+.camo-five {
     background: url('../assets/sec5.webp');
-    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+}
+
+
+.side-line {
+    height: 2px;
+    width: 160px;
+    background-color: #fff;
+    opacity: 0.7;
 }
 
 
 
+
+/* ----------------------------------------------------------------------USMAN SECTION 6------------------------------ */
+
+
+.camo-six {
+    background: url('../assets/secsix.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+}
+
+
+
+
+.text-navy {
+    color: #1B2A41 !important;
+}
+
+.bg-orange {
+    background: linear-gradient(90deg, #FC621A, #A53906);
+}
+
+
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.six-h4 {
+    color: #1B2A41;
+}
+
+.six-p {
+    color: #4C6C87;
+}
+
+
+.camo-six-card {
+    transition: all .3s ease !important;
+}
+
+.camo-six-card:hover {
+    background-color: #14357A !important;
+    cursor: pointer;
+}
+
+.camo-six hr {
+    transition: all .3s ease !important;
+}
+
+.camo-six-card:hover h4 {
+    color: white;
+    cursor: pointer;
+}
+
+.camo-six-card p {
+    transition: all .3s ease !important;
+}
+
+.camo-six-card:hover p {
+    color: white;
+    cursor: pointer;
+}
+
+.camo-six-card .icon-circle {
+    transition: all .3s ease !important;
+}
+
+.camo-six-card:hover .icon-circle {
+    background: #536c9e !important;
+    cursor: pointer;
+}
