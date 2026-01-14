@@ -390,3 +390,38 @@ a:active {
     background: #536c9e !important;
     cursor: pointer;
 }
+
+
+
+/* --------------------------------------------------------------------USMAN SECTION 7 ARTICLES------------------------------- */
+.article{
+    background-color: #14357A;
+}
+.art{
+    background-color: #19AAC73B;
+    color: #19AAC7;
+    
+}
+.art-h4{
+   color: #1B2A41;
+}
+
+.camo-btn-dark {
+    background: linear-gradient(135deg, #26419C 50%, #19ABC8);
+    color: var(--color-white);
+}
+
+.camo-btn-dark svg rect {
+    fill: var(--color-white);
+}
+
+.camo-btn-dark svg path {
+    fill: var(--color-black);
+}
+
+.articon{
+    background-color: #143578;
+}
+.articon svg path {
+    fill: var(--color-white);
+}
